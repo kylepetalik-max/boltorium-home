@@ -1,11 +1,7 @@
-/** Public asset URL that works on GitHub Pages project site. */
+/** Public asset URL for apex / custom-domain Pages (base `/`). */
 export function asset(path) {
   const clean = String(path || '').replace(/^\/+/, '');
-  let base = import.meta.env.BASE_URL || './';
-
-  if (typeof window !== 'undefined' && window.location?.hostname?.endsWith('github.io')) {
-    base = '/boltorium-home/';
-  }
+  let base = import.meta.env.BASE_URL || '/';
 
   if (base.startsWith('/') || /^https?:/i.test(base)) {
     const root = base.endsWith('/') ? base : `${base}/`;
