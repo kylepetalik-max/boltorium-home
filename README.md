@@ -1,17 +1,17 @@
 # Boltorium Home (marketing)
 
-**Live (after DNS cutover):** https://boltorium.co  
-**Pages (until DNS):** https://kylepetalik-max.github.io/boltorium-home/ — **301s to boltorium.co** until Worldnic A records flip (expected)  
-**Enter App (live app):** https://launch-ready-131.emergent.host  
+**Live (marketing):** https://www.boltorium.co  
+**Pages project URL:** https://kylepetalik-max.github.io/boltorium-home/ — may **301 to www.boltorium.co** once the Pages CNAME is set (expected)  
+**Enter App (live Emergent app):** https://boltorium.co  
 
 Static marketing front for Boltorium — homepage, How it works, Ecosystem, Roadmap.  
-**Not** the working app source. Every **Enter App** CTA goes to the live Emergent deploy above (same tab).
+**Not** the working app source. Every **Enter App** CTA goes to the live Emergent app on the apex (same tab).
 
 ## What this is
 
 - Vite + React + HashRouter marketing shell stripped from boltorium-v2
 - No Capacitor, no in-app Ride/Garage tabs, no Striker package
-- GitHub Pages with **base `/`** for apex custom domain `boltorium.co`
+- GitHub Pages with **base `/`** for custom domain `www.boltorium.co`
 
 ## Local
 
@@ -22,52 +22,57 @@ For a Pages-shaped local build: `npm run build:pages` (sets `VITE_BASE=/`).
 ## Deploy
 
 1. `npm run build` (or `npm run build:pages`) — Vite base `/`
-2. Publish `dist/` to the `gh-pages` branch (includes `public/CNAME` → `boltorium.co`)
-3. GitHub Pages custom domain is `boltorium.co` (Enforce HTTPS when the cert is ready)
+2. Publish `dist/` to the `gh-pages` branch (includes `public/CNAME` → `www.boltorium.co`)
+3. GitHub Pages custom domain is `www.boltorium.co` (Enforce HTTPS when the cert is ready)
 
-Until Worldnic DNS points the apex at GitHub Pages IPs, `https://kylepetalik-max.github.io/boltorium-home/` will 301 to `https://boltorium.co`. That is expected. After DNS flips, the portal serves on the apex.
+Once CNAME is set, `https://kylepetalik-max.github.io/boltorium-home/` may 301 to `https://www.boltorium.co`. That is expected.
 
-## Worldnic DNS cutover (Kyle -- do this in Worldnic)
+## Worldnic DNS (Kyle -- do this in Worldnic)
 
-GitHub Pages is configured for custom domain boltorium.co.
-Do **not** change DNS until you are ready to cut over. After DNS changes, boltorium.co shows this marketing site; the app stays at https://launch-ready-131.emergent.host via Enter App.
+We do **not** change Worldnic from this repo. Configure DNS as follows so:
 
-### Apex A records (replace current Emergent / Cloudflare IPs)
+- **Apex `boltorium.co`** → Emergent app (restore Emergent / Cloudflare IPs; remove GitHub `185.199.*` apex A records)
+- **`www.boltorium.co`** → this GitHub Pages marketing site
 
-Delete or replace the existing apex A records for boltorium.co with these GitHub Pages IPs:
+### Apex A records (RESTORE Emergent — remove GitHub Pages IPs from apex)
+
+Replace any GitHub Pages apex A records (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) with these Emergent / Cloudflare IPs:
 
 | Type | Host | Value |
 |------|------|-------|
-| A | @ (apex) | 185.199.108.153 |
-| A | @ (apex) | 185.199.109.153 |
-| A | @ (apex) | 185.199.110.153 |
-| A | @ (apex) | 185.199.111.153 |
+| A | @ (apex) | 172.66.2.113 |
+| A | @ (apex) | 162.159.142.117 |
 
-### www
+### www → GitHub Pages
 
 | Type | Host | Value |
 |------|------|-------|
 | CNAME | www | kylepetalik-max.github.io |
 
+If a CNAME is not possible, use GitHub Pages A records on `www` instead:
+
+| Type | Host | Value |
+|------|------|-------|
+| A | www | 185.199.108.153 |
+| A | www | 185.199.109.153 |
+| A | www | 185.199.110.153 |
+| A | www | 185.199.111.153 |
+
 ### After DNS propagates
 
-1. Confirm https://boltorium.co loads this marketing site.
-2. Confirm Enter App still opens https://launch-ready-131.emergent.host
-3. In GitHub repo Settings Pages, enable Enforce HTTPS if not already on.
-4. Keep the old Emergent / Cloudflare apex A record IPs somewhere if you want a quick DNS rollback.
-
-### Rollback note
-
-If you need to point the apex back to Emergent, restore the previous Worldnic A records (save them before changing). This repo / Pages config does not need to change for a DNS-only rollback of the apex.
+1. Confirm https://www.boltorium.co loads this marketing site.
+2. Confirm https://boltorium.co is the Emergent app.
+3. Confirm Enter App opens https://boltorium.co
+4. In GitHub repo Settings → Pages, enable Enforce HTTPS when the cert is ready.
 
 ## Investor map
 
 - boltorium -- v1 live / investor pointer (do not overwrite)
 - boltorium-v2 -- archived Capacitor + marketing preview (leave archived)
-- boltorium-home -- this repo (marketing front)
+- boltorium-home -- this repo (marketing front on www)
 
 ## Honest notes
 
 - Demo/devnet language in copy; no fabricated rider stats
-- Live app is the Emergent host, not this repo
-- With base `/` and a Pages custom domain set, the project URL github.io/boltorium-home/ 301s to boltorium.co until DNS cutover
+- Live app is Emergent on apex `boltorium.co`; this repo is marketing on `www`
+- With base `/` and Pages custom domain `www.boltorium.co`, the project URL github.io/boltorium-home/ may 301 to www
