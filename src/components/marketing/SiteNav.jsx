@@ -1,15 +1,17 @@
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { asset } from '../../lib/asset.js';
 import { APP_URL } from '../../lib/appUrl.js';
+import { DISCORD_LABEL, DISCORD_URL, X_URL } from '../../lib/community.js';
 
 const ROUTES = [
   { to: '/how-it-works', label: 'How it works' },
   { to: '/ecosystem', label: 'Ecosystem' },
   { to: '/roadmap', label: 'Roadmap' },
+  { to: '/blog', label: 'Blog' },
 ];
 
 const SECTIONS = [
-  { id: 'riders', label: 'Riders' },
+  { id: 'trust', label: 'Trust' },
   { id: 'community', label: 'Community' },
 ];
 
@@ -41,7 +43,7 @@ export default function SiteNav() {
             className="h-8 w-auto max-w-[148px] object-contain sm:h-9"
           />
         </Link>
-        <nav className="hidden items-center gap-1 md:flex">
+        <nav className="hidden items-center gap-1 lg:flex">
           {ROUTES.map((l) => (
             <NavLink
               key={l.to}
@@ -65,6 +67,21 @@ export default function SiteNav() {
               {s.label}
             </button>
           ))}
+          <a
+            href={X_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider text-bone/65 transition hover:text-bolt"
+          >
+            X
+          </a>
+          <a
+            href={DISCORD_URL}
+            title={DISCORD_LABEL}
+            className="rounded-full px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider text-bone/65 transition hover:text-bolt"
+          >
+            Discord
+          </a>
         </nav>
         <div className="flex items-center gap-2">
           <Link
@@ -81,7 +98,7 @@ export default function SiteNav() {
           </a>
         </div>
       </div>
-      <div className="flex gap-1 overflow-x-auto border-t border-white/5 px-3 py-2 md:hidden">
+      <div className="flex gap-1 overflow-x-auto border-t border-white/5 px-3 py-2 lg:hidden">
         {ROUTES.map((l) => (
           <NavLink
             key={l.to}
@@ -105,6 +122,20 @@ export default function SiteNav() {
             {s.label}
           </button>
         ))}
+        <a
+          href={X_URL}
+          target="_blank"
+          rel="noreferrer"
+          className="shrink-0 rounded-full px-3 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-bone/55"
+        >
+          X
+        </a>
+        <a
+          href={DISCORD_URL}
+          className="shrink-0 rounded-full px-3 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-bone/55"
+        >
+          Discord
+        </a>
       </div>
     </header>
   );

@@ -4,16 +4,16 @@ import { APP_URL } from '../lib/appUrl.js';
 
 const PHASES = [
   {
-    status: 'NOW',
+    status: 'LIVE',
     color: 'text-bolt',
     t: 'Marketing front + live demo app',
-    d: 'This site is the public marketing homepage. Enter App opens the live Emergent deploy (demo / waitlist loop). Not the app source.',
+    d: 'www.boltorium.co is the marketing portal. Enter App opens the live Emergent demo (GPS rides, Striker, Boltz demo credits, garage/shop/missions). Not the app source.',
   },
   {
     status: 'NEXT',
     color: 'text-cyan',
     t: 'Waitlist + native wraps',
-    d: 'Harden onboarding, ship iOS/Android Capacitor builds, open community channels for real.',
+    d: 'Harden onboarding, ship iOS/Android Capacitor builds, open a real Discord invite when ready.',
   },
   {
     status: 'MAINNET',
@@ -21,6 +21,20 @@ const PHASES = [
     t: 'Boltz on Solana mainnet',
     d: 'When tokenomics + Striker are locked: real minting, wallet connect beyond demo pubkey. No date theater — status lives here.',
   },
+];
+
+const LIVE = [
+  'GPS ride tracking',
+  'Striker verify gate',
+  'Boltz demo credits',
+  'Garage / shop / missions in live app',
+  'Marketing portal on www',
+];
+
+const PLANNED = [
+  'Solana mainnet',
+  'Native store wraps',
+  'Scaled rewards',
 ];
 
 export default function Roadmap() {
@@ -31,8 +45,28 @@ export default function Roadmap() {
         <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
         <p className="mt-4 text-bone/70">
           Honest timeline language. We are on demo / devnet rails. Mainnet is a milestone, not a
-          marketing fake-out.
+          marketing fake-out. No fabricated rider stats or TVL.
         </p>
+
+        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+          <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-5">
+            <p className="hud-label text-bolt">LIVE today</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-bone/75">
+              {LIVE.map((x) => (
+                <li key={x}>✓ {x}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-2xl border border-white/10 bg-void/80 p-5">
+            <p className="hud-label text-solana">PLANNED</p>
+            <ul className="mt-3 space-y-1.5 text-sm text-bone/65">
+              {PLANNED.map((x) => (
+                <li key={x}>→ {x}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
         <ol className="mt-10 space-y-4">
           {PHASES.map((p) => (
             <li key={p.t} className="rounded-2xl border border-white/10 bg-void/80 p-5">
@@ -45,12 +79,20 @@ export default function Roadmap() {
         <div className="mt-10 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
           <p className="headline text-bolt">Mainnet launch CTA</p>
           <p className="mt-2 text-sm text-bone/70">
-            Join via Enter App to be in the waitlist path. We announce mainnet here and in community
-            channels — not with inflated rider stats.
+            Join via Enter App to be in the waitlist path. We announce mainnet here and on X —
+            not with inflated rider stats.
           </p>
-          <a href={APP_URL} className="btn-bolt mt-4 !w-auto !px-8 !rounded-full">
-            Join waitlist / Enter App
-          </a>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
+              Enter App
+            </a>
+            <Link
+              to="/press"
+              className="inline-flex h-14 items-center rounded-full border border-white/20 px-6 font-display font-bold uppercase tracking-wider text-bone/80"
+            >
+              Press &amp; listings
+            </Link>
+          </div>
         </div>
       </div>
     </MarketingShell>
