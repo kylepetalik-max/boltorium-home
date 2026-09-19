@@ -6,6 +6,7 @@ import Roadmap from './pages/Roadmap.jsx';
 import BlogIndex from './pages/blog/BlogIndex.jsx';
 import BlogPost from './pages/blog/BlogPost.jsx';
 import Press from './pages/Press.jsx';
+import AppStatus from './pages/AppStatus.jsx';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path="/blog" element={<BlogIndex />} />
       <Route path="/blog/:slug" element={<BlogPost />} />
       <Route path="/press" element={<Press />} />
+      <Route path="/app" element={<AppStatus />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

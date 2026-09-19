@@ -9,7 +9,7 @@ const JOURNEY = [
   {
     n: '01',
     t: 'Join',
-    d: 'Sign in or join the waitlist via Enter App — opens the live demo at boltorium.co.',
+    d: 'Enter App shows the current restore status while app hosting and SSL are being restored.',
   },
   {
     n: '02',
@@ -36,10 +36,10 @@ const BENEFITS = [
 ];
 
 const LIVE_NOW = [
-  'GPS ride tracking in the live app',
-  'Striker verify gate (PASS / REVIEW / FAIL)',
+  'GPS ride tracking is part of the app experience',
+  'Striker verify gate (PASS / REVIEW / FAIL) is in the product plan',
   'Boltz demo credits (not mainnet mint)',
-  'Garage, shop, and missions in the live app',
+  'Garage, shop, and missions are part of the app experience',
   'Marketing portal on www.boltorium.co',
 ];
 
@@ -124,7 +124,7 @@ export default function MarketingHome() {
               <p className="hud-label text-solana">Your journey</p>
               <h2 className="headline mt-2 text-3xl sm:text-4xl">Join → Ride → Earn → Demo</h2>
               <p className="mt-2 max-w-xl text-sm text-bone/60">
-                Primary CTA: Enter App opens the live demo at boltorium.co. Secondary: Learn / Roadmap.
+                App restore is in progress. Enter App opens the current status page. Secondary: Learn / Roadmap.
               </p>
             </div>
             <Link to="/how-it-works" className="font-display text-sm font-bold uppercase tracking-wider text-cyan hover:text-bolt">
@@ -142,7 +142,7 @@ export default function MarketingHome() {
           </div>
           <div className="mt-8">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
-              Enter App — live demo
+              Enter App — status
             </a>
           </div>
         </div>
@@ -158,7 +158,7 @@ export default function MarketingHome() {
         </p>
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-6">
-            <p className="hud-label text-bolt">LIVE today</p>
+            <p className="hud-label text-bolt">PRODUCT SNAPSHOT</p>
             <ul className="mt-4 space-y-2.5">
               {LIVE_NOW.map((item) => (
                 <li key={item} className="flex gap-2 text-sm text-bone/80">
@@ -222,10 +222,10 @@ export default function MarketingHome() {
         <div className="relative overflow-hidden rounded-3xl border border-bolt/30 bg-void p-8 sm:p-10">
           <div className="pointer-events-none absolute -right-10 top-0 h-48 w-48 rounded-full bg-bolt/20 blur-3xl" />
           <p className="hud-label text-bolt">Ready to try the demo</p>
-          <h2 className="headline mt-2 text-3xl">Enter App → live at boltorium.co</h2>
+          <h2 className="headline mt-2 text-3xl">Enter App → check app status</h2>
           <p className="mt-3 max-w-xl text-bone/65">
-            Join the waitlist loop, explore the garage, and stress-test rides on demo rails.
-            We ship mainnet when Striker + tokenomics are locked.
+            App restore is in progress while hosting and SSL are being restored. Check the status
+            page for the latest available information.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">

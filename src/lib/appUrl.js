@@ -1,2 +1,2 @@
-/** Absolute URL of the live working Boltorium app (Emergent deploy). */
-export const APP_URL = 'https://boltorium.co';
+/** Absolute URL of the Boltorium app status page. */
+export const APP_URL = 'https://www.boltorium.co/app';
