@@ -6,9 +6,9 @@
   "description": "Boltorium marketing homepage for boltorium.co. Enter App links to the live Emergent app.",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "vite build && mkdir -p dist/app && cp dist/index.html dist/404.html && cp dist/index.html dist/app/index.html",
     "preview": "vite preview --host",
-    "build:pages": "VITE_BASE=/ vite build && cp dist/index.html dist/404.html"
+    "build:pages": "VITE_BASE=/ vite build && mkdir -p dist/app && cp dist/index.html dist/404.html && cp dist/index.html dist/app/index.html"
   },
   "dependencies": {
     "react": "^18.3.1",
