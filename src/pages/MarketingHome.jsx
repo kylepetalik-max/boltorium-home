@@ -9,7 +9,7 @@ const JOURNEY = [
   {
     n: '01',
     t: 'Join',
-    d: 'Enter App shows the current restore status while app hosting and SSL are being restored.',
+    d: 'Enter App opens the live demo at boltorium.co.',
   },
   {
     n: '02',
@@ -124,7 +124,7 @@ export default function MarketingHome() {
               <p className="hud-label text-solana">Your journey</p>
               <h2 className="headline mt-2 text-3xl sm:text-4xl">Join → Ride → Earn → Demo</h2>
               <p className="mt-2 max-w-xl text-sm text-bone/60">
-                App restore is in progress. Enter App opens the current status page. Secondary: Learn / Roadmap.
+                Enter App opens the live demo at boltorium.co. Secondary: Learn / Roadmap.
               </p>
             </div>
             <Link to="/how-it-works" className="font-display text-sm font-bold uppercase tracking-wider text-cyan hover:text-bolt">
@@ -142,7 +142,7 @@ export default function MarketingHome() {
           </div>
           <div className="mt-8">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
-              Enter App — status
+              Enter App
             </a>
           </div>
         </div>
@@ -222,10 +222,10 @@ export default function MarketingHome() {
         <div className="relative overflow-hidden rounded-3xl border border-bolt/30 bg-void p-8 sm:p-10">
           <div className="pointer-events-none absolute -right-10 top-0 h-48 w-48 rounded-full bg-bolt/20 blur-3xl" />
           <p className="hud-label text-bolt">Ready to try the demo</p>
-          <h2 className="headline mt-2 text-3xl">Enter App → check app status</h2>
+          <h2 className="headline mt-2 text-3xl">Enter App → live demo</h2>
           <p className="mt-3 max-w-xl text-bone/65">
-            App restore is in progress while hosting and SSL are being restored. Check the status
-            page for the latest available information.
+            Enter App opens the live demo at boltorium.co. Ride, verify, and explore the Boltorium
+            experience.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
