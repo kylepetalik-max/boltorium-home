@@ -1,52 +1,61 @@
 import { Link } from 'react-router-dom';
 import MarketingShell from '../components/marketing/MarketingShell.jsx';
+import { asset } from '../lib/asset.js';
 import { APP_URL } from '../lib/appUrl.js';
 
 const PHASES = [
   {
     status: 'LIVE',
     color: 'text-bolt',
-    t: 'Marketing front + live demo app',
-    d: 'www.boltorium.co is the marketing portal. Enter App opens the live Emergent demo (GPS rides, Striker, Boltz demo credits, garage/shop/missions). Not the app source.',
+    t: 'Marketing front + free Enter App',
+    d: 'www.boltorium.co explains dual-token (earn RTL · market Boltz). Enter App opens the live Emergent demo at boltorium.co — free, no Whop. Not the app source.',
+  },
+  {
+    status: 'SEP 29',
+    color: 'text-cyan',
+    t: 'Jupiter DTF soft TGE teaser (Mode B)',
+    d: 'Target Tue Sep 29, 2026 PT: Boltz / BTR soft TGE via Jupiter DTF. Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
   },
   {
     status: 'NEXT',
-    color: 'text-cyan',
-    t: 'Waitlist + native wraps',
-    d: 'Harden onboarding, ship iOS/Android Capacitor builds, open a real Discord invite when ready.',
-  },
-  {
-    status: 'MAINNET',
     color: 'text-solana',
-    t: 'Boltz on Solana mainnet',
-    d: 'When tokenomics + Striker are locked: real minting, wallet connect beyond demo pubkey. No date theater — status lives here.',
+    t: 'On-chain RTL + native wraps',
+    d: 'RTL earn migrates per published policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public trading after ≥250k BTR purchased (educational gate).',
   },
 ];
 
 const LIVE = [
   'GPS ride tracking',
   'Striker verify gate',
-  'Boltz demo credits',
+  'RTL earn (Phase 1 may be in-app / demo credits)',
   'Garage / shop / missions in live app',
-  'Marketing portal on www',
+  'Dual-token story on www',
 ];
 
 const PLANNED = [
-  'Solana mainnet',
+  'Jupiter DTF soft TGE for Boltz / BTR (Sep 29 Mode B target)',
+  'On-chain RTL',
   'Native store wraps',
-  'Scaled rewards',
+  'Public after ≥250k BTR purchased',
 ];
 
 export default function Roadmap() {
   return (
     <MarketingShell title="Roadmap / Mainnet — BOLTORIUM">
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
-        <p className="hud-label text-solana">Roadmap / Mainnet</p>
+        <p className="hud-label text-solana">Roadmap / Launch</p>
         <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
         <p className="mt-4 text-bone/70">
-          Honest timeline language. We are on demo / devnet rails. Mainnet is a milestone, not a
-          marketing fake-out. No fabricated rider stats or TVL.
+          Honest timeline. Earn = RTL. Market = Boltz / BTR via Jupiter DTF. Soft TGE target{' '}
+          <strong className="text-bone">Tue Sep 29, 2026 PT Mode B</strong> — teaser only until live.
+          No fabricated rider stats, prices, or buy buttons.
         </p>
+
+        <img
+          src={asset('banners/banner-jupiter-launch-1500x500.png')}
+          alt="Jupiter DTF Sep 29 soft TGE teaser"
+          className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
+        />
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
           <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-5">
@@ -77,15 +86,21 @@ export default function Roadmap() {
           ))}
         </ol>
         <div className="mt-10 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
-          <p className="headline text-bolt">Mainnet launch CTA</p>
+          <p className="headline text-bolt">Interest CTA</p>
           <p className="mt-2 text-sm text-bone/70">
-            Join via Enter App to be in the waitlist path. We announce mainnet here and on X —
-            not with inflated rider stats.
+            Free Enter App to ride and earn RTL. Sep 29 Jupiter DTF alerts land on X and this roadmap —
+            not with inflated stats or a fake buy button.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
               Enter App
             </a>
+            <Link
+              to="/tokens"
+              className="inline-flex h-14 items-center rounded-full border border-bolt/40 px-6 font-display font-bold uppercase tracking-wider text-bolt"
+            >
+              Tokens
+            </Link>
             <Link
               to="/press"
               className="inline-flex h-14 items-center rounded-full border border-white/20 px-6 font-display font-bold uppercase tracking-wider text-bone/80"

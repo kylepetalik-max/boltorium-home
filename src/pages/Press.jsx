@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import MarketingShell from '../components/marketing/MarketingShell.jsx';
 import { PRESS_EMAIL, X_URL } from '../lib/community.js';
 
@@ -20,8 +21,9 @@ export default function Press() {
         <h1 className="headline mt-2 text-4xl sm:text-5xl">Outreach checklist</h1>
         <p className="mt-4 text-bone/70">
           We do not buy backlinks. This page is a human checklist for relevant, non-spam outreach.
-          Label Boltorium as <strong className="text-bone">demo / devnet until mainnet</strong> —
-          no fake rider counts or TVL.
+          Label Boltorium honestly: earn = <strong className="text-cyan">RTL</strong>, market ={' '}
+          <strong className="text-bolt">Boltz / BTR</strong> via Jupiter DTF — no fake rider counts,
+          prices, or live buy claims before rails are live.
         </p>
 
         <div className="mt-8 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
@@ -39,7 +41,7 @@ export default function Press() {
             </a>
           </p>
           <p className="mt-3 font-mono text-[10px] tracking-wider text-bone/40">
-            LIVE APP · https://boltorium.co · MARKETING · https://www.boltorium.co
+            LIVE APP · https://boltorium.co · MARKETING · https://www.boltorium.co · TOKENS · /tokens
           </p>
         </div>
 
@@ -62,10 +64,13 @@ export default function Press() {
         <div className="mt-10 rounded-2xl border border-white/10 p-5 text-sm text-bone/60">
           <p className="headline text-base text-bone">One-liner (honest)</p>
           <p className="mt-2">
-            Boltorium is GPS-verified ride-to-earn for electric micromobility with a Striker
-            anti-cheat gate. Live demo at boltorium.co; Solana mainnet on the roadmap — not claimed
-            as live yet.
+            Ride on Boltorium → earn RTL → the market token is Boltz (BTR) on Solana via Jupiter DTF.
+            Soft TGE target Tue Sep 29, 2026 PT Mode B. Free Enter App at boltorium.co — no Whop,
+            no fake buy button yet.
           </p>
+          <Link to="/tokens" className="mt-3 inline-flex font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-cyan">
+            Dual-token page →
+          </Link>
         </div>
       </div>
     </MarketingShell>

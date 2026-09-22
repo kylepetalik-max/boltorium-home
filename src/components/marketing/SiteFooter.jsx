@@ -14,7 +14,7 @@ export default function SiteFooter() {
             className="h-10 w-auto max-w-[180px] object-contain"
           />
           <p className="mt-3 max-w-sm text-sm text-bone/50">
-            GPS-verified ride-to-earn on Solana. Demo / devnet until mainnet — no fake claims.
+            GPS-verified ride-to-earn. Earn RTL · market Boltz (BTR) via Jupiter DTF. Free Enter App — no fake buy button.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-4">
@@ -23,9 +23,10 @@ export default function SiteFooter() {
             <ul className="space-y-1.5 text-bone/60">
               <li><Link to="/how-it-works" className="hover:text-bolt">How it works</Link></li>
               <li><Link to="/ecosystem" className="hover:text-bolt">Ecosystem</Link></li>
-              <li><Link to="/roadmap" className="hover:text-bolt">Roadmap / Mainnet</Link></li>
+              <li><Link to="/tokens" className="hover:text-bolt">Tokens</Link></li>
+              <li><Link to="/roadmap" className="hover:text-bolt">Roadmap / Launch</Link></li>
               <li><Link to="/blog" className="hover:text-bolt">Blog</Link></li>
-              <li><a href={APP_URL} className="hover:text-bolt">Enter App</a></li>
+              <li><a href={APP_URL} className="hover:text-bolt">Enter App — free</a></li>
             </ul>
           </div>
           <div>
@@ -47,8 +48,8 @@ export default function SiteFooter() {
             <p className="hud-label mb-2 text-solana">Trust</p>
             <ul className="space-y-1.5 text-bone/60">
               <li>Striker ride verify</li>
-              <li>Demo pubkey only</li>
-              <li>No mainnet mint yet</li>
+              <li>Earn RTL · market Boltz</li>
+              <li>No live buy / mint on site</li>
               <li><Link to="/roadmap" className="hover:text-solana">LIVE vs PLANNED</Link></li>
             </ul>
           </div>

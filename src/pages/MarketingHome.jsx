@@ -9,7 +9,7 @@ const JOURNEY = [
   {
     n: '01',
     t: 'Join',
-    d: 'Enter App opens the live demo at boltorium.co.',
+    d: 'Free Enter App at boltorium.co — no paid membership paywall.',
   },
   {
     n: '02',
@@ -18,35 +18,36 @@ const JOURNEY = [
   },
   {
     n: '03',
-    t: 'Earn',
-    d: 'Striker verifies the session. PASS credits Boltz (demo credits today). FAIL earns nothing.',
+    t: 'Earn RTL',
+    d: 'Striker verifies the session. PASS credits RTL (Phase 1 may be in-app / demo credits). FAIL earns nothing. Riding does not mint BTR.',
   },
   {
     n: '04',
-    t: 'Demo access',
-    d: 'Garage, shop, missions, and rank are live in the demo. Mainnet is planned — not claimed yet.',
+    t: 'Market Boltz',
+    d: 'Boltz (BTR) is the tradeable market coin — Jupiter DTF soft TGE target Tue Sep 29, 2026 PT. Teaser only until live.',
   },
 ];
 
 const BENEFITS = [
   { t: 'Built for riders', d: 'Phone-first HUD, safety gate, and vehicle classes that match how you actually ride.' },
-  { t: 'Anti-cheat first', d: 'Striker verification before Boltz — no ghost GPS farming.' },
-  { t: 'Solana-ready', d: 'Demo pubkey + trace hash today. Honest about mainnet timing.' },
-  { t: 'Crew energy', d: 'Rank, missions, airdrops, and a marketplace for official + P2P gear.' },
+  { t: 'Anti-cheat first', d: 'Striker verification before RTL — no ghost GPS farming.' },
+  { t: 'Dual-token honest', d: 'Market = Boltz / BTR (gold). Earn = RTL (holographic). Two assets, no auto-convert.' },
+  { t: 'Crew energy', d: 'Rank, missions, garage, and shop — free Enter App, no Whop token sales.' },
 ];
 
 const LIVE_NOW = [
   'GPS ride tracking is part of the app experience',
   'Striker verify gate (PASS / REVIEW / FAIL) is in the product plan',
-  'Boltz demo credits (not mainnet mint)',
+  'RTL earn rewards (Phase 1 may be in-app / demo credits)',
   'Garage, shop, and missions are part of the app experience',
-  'Marketing portal on www.boltorium.co',
+  'Marketing portal on www.boltorium.co — dual-token story live',
 ];
 
 const PLANNED = [
-  'Solana mainnet minting & wallet connect beyond demo pubkey',
+  'Jupiter DTF soft TGE for Boltz / BTR — target Tue Sep 29, 2026 PT Mode B',
+  'On-chain RTL after published earn policy',
   'Native store wraps (iOS / Android)',
-  'Scaled rewards once tokenomics + Striker are locked',
+  'Public trading after ≥250,000 BTR purchased (educational gate)',
 ];
 
 export default function MarketingHome() {
@@ -64,30 +65,74 @@ export default function MarketingHome() {
             alt="BOLTORIUM"
             className="w-[min(92vw,520px)] object-contain drop-shadow-[0_0_40px_rgba(56,189,248,0.35)]"
           />
-          <p className="mt-5 max-w-xl text-base text-bone/75 sm:text-lg">
-            GPS-verified ride-to-earn for electric riders. Join → Ride → Earn → Demo.
-            Charge up Boltz, build your garage — demo on Solana until mainnet.
+          <p className="mt-5 max-w-2xl text-base text-bone/75 sm:text-lg">
+            Ride on Boltorium → earn <span className="text-cyan font-semibold">RTL</span> → the market
+            token is <span className="text-bolt font-semibold">Boltz (BTR)</span> on Solana via Jupiter
+            DTF.
+          </p>
+          <p className="mt-2 max-w-xl text-sm text-bone/55">
+            Free Enter App. Soft TGE teaser Tue Sep 29, 2026 PT Mode B — no fake buy button.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
               Enter App
             </a>
             <Link
+              to="/tokens"
+              className="inline-flex h-14 items-center justify-center rounded-full border border-bolt/50 px-8 font-display text-lg font-extrabold uppercase tracking-wider text-bolt transition hover:bg-bolt/10"
+            >
+              Tokens
+            </Link>
+            <Link
               to="/how-it-works"
               className="inline-flex h-14 items-center justify-center rounded-full border border-cyan/50 px-8 font-display text-lg font-extrabold uppercase tracking-wider text-cyan transition hover:bg-cyan/10"
             >
               Learn
             </Link>
-            <Link
-              to="/roadmap"
-              className="inline-flex h-14 items-center justify-center rounded-full border border-white/20 px-8 font-display text-lg font-extrabold uppercase tracking-wider text-bone/80 transition hover:bg-white/5"
-            >
-              Roadmap
-            </Link>
           </div>
           <p className="mt-4 font-mono text-[10px] tracking-[0.2em] text-bone/40">
-            LIVE DEMO · DEVNET / DEMO CREDITS · MAINNET ON THE ROADMAP
+            FREE ENTER APP · EARN RTL · MARKET BOLTZ · JUPITER DTF SEP 29 TEASER
           </p>
+        </div>
+      </section>
+
+      {/* DUAL TOKEN STRIP */}
+      <section id="tokens" className="border-y border-white/5 bg-surface/40 py-12">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="hud-label text-bolt">Dual-token protocol</p>
+              <h2 className="headline mt-2 text-3xl sm:text-4xl">
+                Market <span className="text-bolt">Boltz</span> · Earn <span className="text-cyan">RTL</span>
+              </h2>
+            </div>
+            <Link to="/tokens" className="font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-cyan">
+              Full token story →
+            </Link>
+          </div>
+          <img
+            src={asset('banners/banner-dual-hero-1500x500.png')}
+            alt="Boltz market · RTL earn"
+            className="mt-6 w-full rounded-2xl border border-white/10 object-cover"
+          />
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-5">
+              <p className="hud-label text-bolt">MARKET</p>
+              <p className="headline mt-2 text-xl text-bolt">Boltz / BTR</p>
+              <p className="mt-2 text-sm text-bone/65">
+                Tradeable gold market coin. Soft TGE via Jupiter DTF — target Tue Sep 29, 2026 PT.
+                No live buy, mint address, or price here yet.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-cyan/40 bg-cyan/5 p-5">
+              <p className="hud-label text-cyan">EARN</p>
+              <p className="headline mt-2 text-xl text-cyan">RTL / RTL</p>
+              <p className="mt-2 text-sm text-bone/65">
+                “Ride the Lightning.” Verified rides credit RTL. Riding does not mint BTR. Two assets,
+                no auto-convert.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -95,18 +140,18 @@ export default function MarketingHome() {
       <section id="what" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <p className="hud-label text-cyan">What is Boltorium?</p>
         <h2 className="headline mt-2 text-3xl text-bone sm:text-4xl">
-          Ride real. Earn verified. <span className="text-bolt">No gold vault fluff.</span>
+          Ride real. Earn <span className="text-cyan">RTL</span>. Market is <span className="text-bolt">Boltz</span>.
         </h2>
         <p className="mt-4 max-w-2xl text-bone/70">
-          Boltorium is a ride-to-earn app for EUCs, e-motos, boards, and scooters. You ride,
-          Striker verifies the session, and eligible rides earn Boltz. Garage, shop, rank, and
-          missions wrap the loop — denser chrome, graffiti energy, neon green charge.
+          Boltorium is a ride-to-earn app for EUCs, e-motos, boards, and scooters. You ride, Striker
+          verifies the session, and eligible rides earn RTL. Boltz (BTR) is the separate market token
+          launching via Jupiter DTF. Free Enter App — no Whop, no paid membership wall.
         </p>
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
           {[
             { k: 'GPS + IMU', v: 'Real coords on the HUD' },
             { k: 'Striker', v: 'PASS / REVIEW / FAIL gate' },
-            { k: 'Boltz', v: 'Neon green demo credits' },
+            { k: 'RTL', v: 'Earn rewards for verified rides' },
           ].map((c) => (
             <div key={c.k} className="cv-card p-4">
               <p className="headline text-bolt">{c.k}</p>
@@ -122,9 +167,9 @@ export default function MarketingHome() {
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
               <p className="hud-label text-solana">Your journey</p>
-              <h2 className="headline mt-2 text-3xl sm:text-4xl">Join → Ride → Earn → Demo</h2>
+              <h2 className="headline mt-2 text-3xl sm:text-4xl">Join → Ride → Earn RTL</h2>
               <p className="mt-2 max-w-xl text-sm text-bone/60">
-                Enter App opens the live demo at boltorium.co. Secondary: Learn / Roadmap.
+                Free Enter App at boltorium.co. Secondary: Tokens / Learn / Roadmap.
               </p>
             </div>
             <Link to="/how-it-works" className="font-display text-sm font-bold uppercase tracking-wider text-cyan hover:text-bolt">
@@ -153,8 +198,8 @@ export default function MarketingHome() {
         <p className="hud-label text-bolt">Trust / Proof</p>
         <h2 className="headline mt-2 text-3xl sm:text-4xl">What&apos;s LIVE vs PLANNED</h2>
         <p className="mt-3 max-w-2xl text-bone/70">
-          Qualitative proof only. No invented user counts, TVL, or “mainnet live” claims.
-          The product is a <span className="text-bolt">labeled demo</span> until mainnet.
+          Qualitative proof only. No invented user counts, TVL, mint addresses, or buy buttons.
+          Sep 29 is a soft TGE <span className="text-bolt">teaser</span> until Jupiter DTF rails are live.
         </p>
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-6">
@@ -201,19 +246,31 @@ export default function MarketingHome() {
         </div>
       </section>
 
-      {/* SOLANA HONESTY */}
+      {/* JUPITER TEASER */}
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        <div className="rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10 p-6 sm:p-8">
-          <p className="hud-label text-solana">Solana / Boltz honesty</p>
-          <h2 className="headline mt-2 text-2xl sm:text-3xl">Demo &amp; devnet until mainnet.</h2>
-          <p className="mt-3 max-w-2xl text-bone/70">
-            This preview uses a demo Solana pubkey and trace hashes. Boltz here are demo credits —
-            not mainnet minting. We will not claim fake rider counts. Mainnet launch is on the
-            roadmap; watch that page for status.
-          </p>
-          <Link to="/roadmap" className="mt-5 inline-flex font-display text-sm font-bold uppercase tracking-wider text-solana hover:text-bolt">
-            Mainnet roadmap →
-          </Link>
+        <div className="overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
+          <img
+            src={asset('banners/banner-jupiter-launch-1500x500.png')}
+            alt="Jupiter DTF soft TGE teaser"
+            className="w-full border-b border-white/10 object-cover"
+          />
+          <div className="p-6 sm:p-8">
+            <p className="hud-label text-solana">Jupiter DTF · Sep 29 Mode B</p>
+            <h2 className="headline mt-2 text-2xl sm:text-3xl">Soft TGE teaser — not a live sale yet.</h2>
+            <p className="mt-3 max-w-2xl text-bone/70">
+              Boltz (BTR) soft TGE target: Tuesday Sep 29, 2026 PT via Jupiter DTF (Studio / secondary
+              later). This site will not show a buy button, mint address, or price until rails are live.
+              Tokens never sold via Stripe or Whop. Watch for launch alerts — free Enter App meanwhile.
+            </p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <Link to="/tokens" className="inline-flex font-display text-sm font-bold uppercase tracking-wider text-solana hover:text-bolt">
+                Dual-token explainer →
+              </Link>
+              <Link to="/roadmap" className="inline-flex font-display text-sm font-bold uppercase tracking-wider text-cyan hover:text-bolt">
+                Roadmap →
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -221,21 +278,21 @@ export default function MarketingHome() {
       <section id="mainnet" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="relative overflow-hidden rounded-3xl border border-bolt/30 bg-void p-8 sm:p-10">
           <div className="pointer-events-none absolute -right-10 top-0 h-48 w-48 rounded-full bg-bolt/20 blur-3xl" />
-          <p className="hud-label text-bolt">Ready to try the demo</p>
-          <h2 className="headline mt-2 text-3xl">Enter App → live demo</h2>
+          <p className="hud-label text-bolt">Ready to ride</p>
+          <h2 className="headline mt-2 text-3xl">Enter App — free</h2>
           <p className="mt-3 max-w-xl text-bone/65">
-            Enter App opens the live demo at boltorium.co. Ride, verify, and explore the Boltorium
-            experience.
+            Free Enter App at boltorium.co. Ride, verify, earn RTL. No paid membership required for the
+            day-1 loop.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
               Enter App
             </a>
-            <Link to="/roadmap" className="inline-flex h-14 items-center rounded-full border border-white/20 px-6 font-display font-bold uppercase tracking-wider text-bone/80">
-              View roadmap
+            <Link to="/tokens" className="inline-flex h-14 items-center rounded-full border border-bolt/40 px-6 font-display font-bold uppercase tracking-wider text-bolt">
+              Tokens
             </Link>
-            <Link to="/blog" className="inline-flex h-14 items-center rounded-full border border-cyan/40 px-6 font-display font-bold uppercase tracking-wider text-cyan">
-              Blog
+            <Link to="/roadmap" className="inline-flex h-14 items-center rounded-full border border-white/20 px-6 font-display font-bold uppercase tracking-wider text-bone/80">
+              Roadmap
             </Link>
           </div>
         </div>
@@ -247,7 +304,7 @@ export default function MarketingHome() {
           <p className="hud-label text-cyan">Community</p>
           <h2 className="headline mt-2 text-3xl">Ride with the crew</h2>
           <p className="mx-auto mt-3 max-w-lg text-bone/65">
-            Follow on X for updates. Discord invite is not public yet — request access by email.
+            Follow on X for Sep 29 launch alerts. Discord invite is not public yet — request access by email.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <a

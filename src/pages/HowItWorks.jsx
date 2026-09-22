@@ -6,7 +6,7 @@ const GET_STARTED = [
   {
     n: '01',
     t: 'Join',
-    d: 'Hit Enter App → https://boltorium.co. Sign in or join the waitlist loop in the live demo.',
+    d: 'Hit Enter App → https://boltorium.co. Free — no Whop, no paid membership paywall for the day-1 loop.',
   },
   {
     n: '02',
@@ -15,13 +15,13 @@ const GET_STARTED = [
   },
   {
     n: '03',
-    t: 'Earn',
-    d: 'Striker verifyRide grades the session. PASS credits verified Boltz (demo credits today). FAIL earns nothing.',
+    t: 'Earn RTL',
+    d: 'Striker verifyRide grades the session. PASS credits RTL (“Ride the Lightning”). Phase 1 may be in-app / demo credits. FAIL earns nothing. Riding does not mint BTR.',
   },
   {
     n: '04',
-    t: 'Demo access',
-    d: 'Garage, shop, missions, and rank are live in the demo app. Mainnet minting is planned — not claimed as live.',
+    t: 'Market Boltz',
+    d: 'Boltz (BTR) is the tradeable market coin. Soft TGE via Jupiter DTF — target Tue Sep 29, 2026 PT Mode B. Teaser + interest only until live — no buy button here yet.',
   },
 ];
 
@@ -35,12 +35,12 @@ const DETAIL = [
     d: 'Envelope checks on speed, distance, and IMU energy by vehicle class. PASS / REVIEW / FAIL — no ghost GPS farming.',
   },
   {
-    t: 'Boltz = demo credits until mainnet',
-    d: 'Eligible sessions credit Boltz in-app. These are demo credits on demo/devnet rails until Solana mainnet ships.',
+    t: 'RTL = earn · Boltz = market',
+    d: 'Eligible sessions credit RTL. Boltz / BTR is the separate market token (Jupiter DTF). Option B: two assets, no auto-convert. Tokens never sold via Stripe or Whop.',
   },
   {
     t: 'Progress the loop',
-    d: 'Tune the garage, shop gear, climb crew rank, clear missions. The product is denser than a splash-only funnel.',
+    d: 'Tune the garage, shop gear, climb crew rank, clear missions. Free Enter App — denser than a splash-only funnel.',
   },
 ];
 
@@ -51,8 +51,8 @@ export default function HowItWorks() {
         <p className="hud-label text-cyan">How it works</p>
         <h1 className="headline mt-2 text-4xl sm:text-5xl">Get started</h1>
         <p className="mt-4 text-bone/70">
-          Join → Ride → Earn → Demo. Enter App opens the live demo at boltorium.co. Secondary paths:
-          Learn (this page) and Roadmap.
+          Join → Ride → Earn RTL. Free Enter App at boltorium.co. Market token is Boltz (BTR) via
+          Jupiter DTF — see Tokens for the dual-token story.
         </p>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -80,16 +80,16 @@ export default function HowItWorks() {
             Enter App
           </a>
           <Link
+            to="/tokens"
+            className="inline-flex h-14 items-center rounded-full border border-bolt/40 px-6 font-display font-bold uppercase tracking-wider text-bolt"
+          >
+            Tokens
+          </Link>
+          <Link
             to="/roadmap"
             className="inline-flex h-14 items-center rounded-full border border-white/20 px-6 font-display font-bold uppercase tracking-wider"
           >
             Roadmap
-          </Link>
-          <Link
-            to="/ecosystem"
-            className="inline-flex h-14 items-center rounded-full border border-white/20 px-6 font-display font-bold uppercase tracking-wider"
-          >
-            Ecosystem
           </Link>
         </div>
       </div>

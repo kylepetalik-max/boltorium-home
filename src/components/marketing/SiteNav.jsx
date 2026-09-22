@@ -6,6 +6,7 @@ import { DISCORD_LABEL, DISCORD_URL, X_URL } from '../../lib/community.js';
 const ROUTES = [
   { to: '/how-it-works', label: 'How it works' },
   { to: '/ecosystem', label: 'Ecosystem' },
+  { to: '/tokens', label: 'Tokens' },
   { to: '/roadmap', label: 'Roadmap' },
   { to: '/blog', label: 'Blog' },
 ];
