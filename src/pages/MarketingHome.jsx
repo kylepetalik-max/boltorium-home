@@ -24,7 +24,7 @@ const JOURNEY = [
   {
     n: '04',
     t: 'Market Boltz',
-    d: 'Boltz (BTR) is the tradeable market coin — Jupiter DTF soft TGE target Tue Sep 29, 2026 PT. Teaser only until live.',
+    d: 'Boltz (BTR) is the tradeable market coin — Jupiter DTF soft TGE (BTR only) target Tue Sep 29, 2026 PT. Teaser only until live. RTL mainnet via boltorium.co, not Jupiter.',
   },
 ];
 
@@ -44,8 +44,8 @@ const LIVE_NOW = [
 ];
 
 const PLANNED = [
-  'Jupiter DTF soft TGE for Boltz / BTR — target Tue Sep 29, 2026 PT Mode B',
-  'On-chain RTL after published earn policy',
+  'Jupiter DTF soft TGE for Boltz / BTR only — target Tue Sep 29, 2026 PT Mode B',
+  'RTL mainnet via boltorium.co / the app after published earn policy (not Jupiter)',
   'Native store wraps (iOS / Android)',
   'Public trading after ≥250,000 BTR purchased (educational gate)',
 ];
@@ -66,12 +66,12 @@ export default function MarketingHome() {
             className="w-[min(92vw,520px)] object-contain drop-shadow-[0_0_40px_rgba(56,189,248,0.35)]"
           />
           <p className="mt-5 max-w-2xl text-base text-bone/75 sm:text-lg">
-            Ride on Boltorium → earn <span className="text-cyan font-semibold">RTL</span> → the market
-            token is <span className="text-bolt font-semibold">Boltz (BTR)</span> on Solana via Jupiter
-            DTF.
+            Ride on Boltorium → earn <span className="text-cyan font-semibold">RTL</span> in the app →
+            the market token is <span className="text-bolt font-semibold">Boltz (BTR)</span> on Solana
+            via Jupiter DTF. RTL mainnet ships via boltorium.co — not Jupiter.
           </p>
           <p className="mt-2 max-w-xl text-sm text-bone/55">
-            Free Enter App. Soft TGE teaser Tue Sep 29, 2026 PT Mode B — no fake buy button.
+            Free Enter App. BTR soft TGE teaser Tue Sep 29, 2026 PT Mode B (Jupiter DTF) — no fake buy button.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
@@ -91,7 +91,7 @@ export default function MarketingHome() {
             </Link>
           </div>
           <p className="mt-4 font-mono text-[10px] tracking-[0.2em] text-bone/40">
-            FREE ENTER APP · EARN RTL · MARKET BOLTZ · JUPITER DTF SEP 29 TEASER
+            FREE ENTER APP · EARN RTL (APP) · MARKET BTR (JUPITER DTF) · SEP 29 TEASER
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function MarketingHome() {
               <p className="hud-label text-bolt">MARKET</p>
               <p className="headline mt-2 text-xl text-bolt">Boltz / BTR</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold market coin. Soft TGE via Jupiter DTF — target Tue Sep 29, 2026 PT.
+                Tradeable gold market coin. Soft TGE via Jupiter DTF (BTR only) — target Tue Sep 29, 2026 PT.
                 No live buy, mint address, or price here yet.
               </p>
             </div>
@@ -144,8 +144,9 @@ export default function MarketingHome() {
         </h2>
         <p className="mt-4 max-w-2xl text-bone/70">
           Boltorium is a ride-to-earn app for EUCs, e-motos, boards, and scooters. You ride, Striker
-          verifies the session, and eligible rides earn RTL. Boltz (BTR) is the separate market token
-          launching via Jupiter DTF. Free Enter App — no Whop, no paid membership wall.
+          verifies the session, and eligible rides earn RTL through the app. Boltz (BTR) is the
+          separate market token launching via Jupiter DTF — BTR only; RTL does not launch on Jupiter.
+          RTL mainnet via boltorium.co. Free Enter App — no Whop, no paid membership wall.
         </p>
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
           {[
@@ -199,7 +200,7 @@ export default function MarketingHome() {
         <h2 className="headline mt-2 text-3xl sm:text-4xl">What&apos;s LIVE vs PLANNED</h2>
         <p className="mt-3 max-w-2xl text-bone/70">
           Qualitative proof only. No invented user counts, TVL, mint addresses, or buy buttons.
-          Sep 29 is a soft TGE <span className="text-bolt">teaser</span> until Jupiter DTF rails are live.
+          Sep 29 is a <span className="text-bolt">BTR</span> soft TGE teaser until Jupiter DTF rails are live. RTL stays on boltorium.co.
         </p>
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-6">
@@ -259,7 +260,8 @@ export default function MarketingHome() {
             <h2 className="headline mt-2 text-2xl sm:text-3xl">Soft TGE teaser — not a live sale yet.</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
               Boltz (BTR) soft TGE target: Tuesday Sep 29, 2026 PT via Jupiter DTF (Studio / secondary
-              later). This site will not show a buy button, mint address, or price until rails are live.
+              later). Jupiter DTF is for BTR only — RTL does not launch on Jupiter. RTL mainnet ships
+              via boltorium.co / the app. No buy button, mint address, or price here until rails are live.
               Tokens never sold via Stripe or Whop. Watch for launch alerts — free Enter App meanwhile.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
