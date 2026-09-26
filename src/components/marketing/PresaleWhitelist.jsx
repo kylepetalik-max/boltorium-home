@@ -38,15 +38,15 @@ export default function PresaleWhitelist() {
             500 WHITELIST SPOTS. THEN IT LOCKS.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-bone/80 sm:text-lg md:mx-0">
-            First 500 riders to finish a GPS challenge, join the free email list and drop their wallet
-            get whitelisted to buy Boltz before the public mainnet launch (planned Tue Sep 29 PT).
+            First 500 riders to sign up free at boltorium.co get whitelisted to buy Boltz before the
+            public mainnet launch (planned Tue Sep 29 PT).
           </p>
           <div className="mt-7 flex justify-center md:justify-start">
             <a
               href={APP_URL}
               className="inline-flex h-14 items-center justify-center rounded-full bg-gold px-8 font-display text-lg font-extrabold uppercase tracking-wider text-void shadow-gold transition hover:brightness-110 active:scale-[0.98]"
             >
-              Claim your spot
+              Sign up free
             </a>
           </div>
           <p className="mt-3 text-xs text-bone/50">
