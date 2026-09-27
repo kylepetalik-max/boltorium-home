@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import MarketingShell from '../components/marketing/MarketingShell.jsx';
 import HeroVideo from '../components/HeroVideo.jsx';
+import PresaleWhitelist from '../components/marketing/PresaleWhitelist.jsx';
 import { asset } from '../lib/asset.js';
 import { APP_URL } from '../lib/appUrl.js';
 import { DISCORD_LABEL, DISCORD_URL, X_URL } from '../lib/community.js';
@@ -53,6 +54,9 @@ const PLANNED = [
 export default function MarketingHome() {
   return (
     <MarketingShell title="BOLTORIUM — Ride-to-Earn">
+      {/* PRESALE WHITELIST ANNOUNCEMENT */}
+      <PresaleWhitelist />
+
       {/* HERO */}
       <section className="relative min-h-[88dvh] overflow-hidden">
         <HeroVideo />
