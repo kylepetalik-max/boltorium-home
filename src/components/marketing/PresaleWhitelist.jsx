@@ -20,7 +20,7 @@ export default function PresaleWhitelist() {
           <source srcSet={asset('presale/boltorium-presale-500-tags.webp')} type="image/webp" />
           <img
             src={asset('presale/boltorium-presale-500-tags.png')}
-            alt="Boltz presale whitelist poster: invite only, 500 spots then it locks, first 500 riders get whitelisted, mainnet planned Tue Sep 29"
+            alt="Boltz presale whitelist poster: invite only, 500 spots then it locks, first 500 riders get whitelisted, mainnet planned Thursday Oct 8"
             width="1080"
             height="1350"
             loading="eager"
