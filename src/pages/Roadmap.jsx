@@ -11,10 +11,10 @@ const PHASES = [
     d: 'www.boltorium.co explains dual-token (earn RTL · market Boltz). Enter App opens the live Emergent demo at boltorium.co — free, no Whop. Not the app source.',
   },
   {
-    status: 'SEP 29',
+    status: 'OCT 8',
     color: 'text-cyan',
     t: 'Jupiter DTF soft TGE teaser (Mode B)',
-    d: 'Target Tue Sep 29, 2026 PT: Boltz / BTR soft TGE via Jupiter DTF (BTR only — RTL does not launch on Jupiter). Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
+    d: 'Target Thu Oct 8, 2026 PT: Boltz / BTR soft TGE via Jupiter DTF (BTR only — RTL does not launch on Jupiter). Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
   },
   {
     status: 'NEXT',
@@ -33,7 +33,7 @@ const LIVE = [
 ];
 
 const PLANNED = [
-  'Jupiter DTF soft TGE for Boltz / BTR only (Sep 29 Mode B target)',
+  'Jupiter DTF soft TGE for Boltz / BTR only (Oct 8 Mode B target)',
   'RTL mainnet via boltorium.co / the app (not Jupiter)',
   'Native store wraps',
   'Public after ≥250k BTR purchased',
@@ -47,13 +47,13 @@ export default function Roadmap() {
         <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
         <p className="mt-4 text-bone/70">
           Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via Jupiter DTF
-          (BTR only). Soft TGE target <strong className="text-bone">Tue Sep 29, 2026 PT Mode B</strong>{' '}
+          (BTR only). Soft TGE target <strong className="text-bone">Thu Oct 8, 2026 PT Mode B</strong>{' '}
           — teaser only until live. No fabricated rider stats, prices, or buy buttons.
         </p>
 
         <img
           src={asset('banners/banner-jupiter-launch-1500x500.png')}
-          alt="Jupiter DTF Sep 29 soft TGE teaser"
+          alt="Jupiter DTF Oct 8 soft TGE teaser"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
 
@@ -88,7 +88,7 @@ export default function Roadmap() {
         <div className="mt-10 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
           <p className="headline text-bolt">Interest CTA</p>
           <p className="mt-2 text-sm text-bone/70">
-            Free Enter App to ride and earn RTL. Sep 29 Jupiter DTF (BTR) alerts land on X and this roadmap —
+            Free Enter App to ride and earn RTL. Oct 8 Jupiter DTF (BTR) alerts land on X and this roadmap —
             not with inflated stats or a fake buy button.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">

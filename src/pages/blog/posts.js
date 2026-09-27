@@ -31,7 +31,7 @@ export const POSTS = [
     blurb: 'Fast settlement fits ride sessions — BTR on Jupiter DTF; RTL mainnet via boltorium.co.',
     body: [
       'Solana is a fit for ride-to-earn because sessions are frequent and small: you want cheap, fast settlement when rewards leave Phase 1 rails. Low fees matter when many short rides settle.',
-      'Today the live app uses a demo Solana pubkey and trace hashes. RTL earn may start as in-app credits. Boltz (BTR) soft TGE targets Tue Sep 29, 2026 PT via Jupiter DTF (BTR only) — RTL mainnet via boltorium.co, not Jupiter. We will not invent TVL, prices, or a live buy button before rails are live.',
+      'Today the live app uses a demo Solana pubkey and trace hashes. RTL earn may start as in-app credits. Boltz (BTR) soft TGE targets Thu Oct 8, 2026 PT via Jupiter DTF (BTR only) — RTL mainnet via boltorium.co, not Jupiter. We will not invent TVL, prices, or a live buy button before rails are live.',
       'Dual-token Option B: two assets, no auto-convert. Market = Boltz / BTR. Earn = RTL. Status lives on the Roadmap and Tokens pages — not in inflated splash stats.',
       'Free Enter App at boltorium.co to stress-test the product. The marketing site on www explains the journey; the apex app is where you ride.',
     ],
@@ -52,11 +52,11 @@ export const POSTS = [
     slug: 'dual-token-boltz-rtl',
     title: 'Dual-token: Boltz market · RTL earn',
     date: '2026-09-22',
-    blurb: 'Locked story: market = Boltz / BTR on Jupiter DTF; earn = RTL via app / boltorium.co; Sep 29 BTR teaser.',
+    blurb: 'Locked story: market = Boltz / BTR on Jupiter DTF; earn = RTL via app / boltorium.co; Oct 8 BTR teaser.',
     body: [
       'Boltorium runs a dual-token protocol. Market (tradeable) = Boltz / BTR — gold. Earn (ride rewards) = RTL / RTL — “Ride the Lightning,” holographic. Option B: two assets, no auto-convert.',
       'Day-1 rider loop: free Enter App at boltorium.co → ride → Striker verifies → earn RTL. Phase 1 RTL may be in-app / demo credits. Riding does not mint BTR. Tokens are never sold via Stripe, Whop, or side brands.',
-      'Boltz soft TGE target: Tuesday Sep 29, 2026 PT Mode B via Jupiter DTF (BTR only; Studio / secondary later). RTL mainnet via boltorium.co — not Jupiter. Until sale rails are live, the portal shows teaser + interest only — no buy button, mint address, or price.',
+      'Boltz soft TGE target: Thursday Oct 8, 2026 PT Mode B via Jupiter DTF (BTR only; Studio / secondary later). RTL mainnet via boltorium.co — not Jupiter. Until sale rails are live, the portal shows teaser + interest only — no buy button, mint address, or price.',
       'Educational go-public gate: ≥250,000 BTR purchased unlocks public trading. Full explainer lives at /tokens on www.boltorium.co.',
     ],
   },

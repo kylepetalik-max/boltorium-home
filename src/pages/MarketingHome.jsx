@@ -24,7 +24,7 @@ const JOURNEY = [
   {
     n: '04',
     t: 'Market Boltz',
-    d: 'Boltz (BTR) is the tradeable market coin — Jupiter DTF soft TGE (BTR only) target Tue Sep 29, 2026 PT. Teaser only until live. RTL mainnet via boltorium.co, not Jupiter.',
+    d: 'Boltz (BTR) is the tradeable market coin — Jupiter DTF soft TGE (BTR only) target Thu Oct 8, 2026 PT. Teaser only until live. RTL mainnet via boltorium.co, not Jupiter.',
   },
 ];
 
@@ -44,7 +44,7 @@ const LIVE_NOW = [
 ];
 
 const PLANNED = [
-  'Jupiter DTF soft TGE for Boltz / BTR only — target Tue Sep 29, 2026 PT Mode B',
+  'Jupiter DTF soft TGE for Boltz / BTR only — target Thu Oct 8, 2026 PT Mode B',
   'RTL mainnet via boltorium.co / the app after published earn policy (not Jupiter)',
   'Native store wraps (iOS / Android)',
   'Public trading after ≥250,000 BTR purchased (educational gate)',
@@ -71,7 +71,7 @@ export default function MarketingHome() {
             via Jupiter DTF. RTL mainnet ships via boltorium.co — not Jupiter.
           </p>
           <p className="mt-2 max-w-xl text-sm text-bone/55">
-            Free Enter App. BTR soft TGE teaser Tue Sep 29, 2026 PT Mode B (Jupiter DTF) — no fake buy button.
+            Free Enter App. BTR soft TGE teaser Thu Oct 8, 2026 PT Mode B (Jupiter DTF) — no fake buy button.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
@@ -91,7 +91,7 @@ export default function MarketingHome() {
             </Link>
           </div>
           <p className="mt-4 font-mono text-[10px] tracking-[0.2em] text-bone/40">
-            FREE ENTER APP · EARN RTL (APP) · MARKET BTR (JUPITER DTF) · SEP 29 TEASER
+            FREE ENTER APP · EARN RTL (APP) · MARKET BTR (JUPITER DTF) · OCT 8 TEASER
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function MarketingHome() {
               <p className="hud-label text-bolt">MARKET</p>
               <p className="headline mt-2 text-xl text-bolt">Boltz / BTR</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold market coin. Soft TGE via Jupiter DTF (BTR only) — target Tue Sep 29, 2026 PT.
+                Tradeable gold market coin. Soft TGE via Jupiter DTF (BTR only) — target Thu Oct 8, 2026 PT.
                 No live buy, mint address, or price here yet.
               </p>
             </div>
@@ -200,7 +200,7 @@ export default function MarketingHome() {
         <h2 className="headline mt-2 text-3xl sm:text-4xl">What&apos;s LIVE vs PLANNED</h2>
         <p className="mt-3 max-w-2xl text-bone/70">
           Qualitative proof only. No invented user counts, TVL, mint addresses, or buy buttons.
-          Sep 29 is a <span className="text-bolt">BTR</span> soft TGE teaser until Jupiter DTF rails are live. RTL stays on boltorium.co.
+          Oct 8 is a <span className="text-bolt">BTR</span> soft TGE teaser until Jupiter DTF rails are live. RTL stays on boltorium.co.
         </p>
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-6">
@@ -256,10 +256,10 @@ export default function MarketingHome() {
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
-            <p className="hud-label text-solana">Jupiter DTF · Sep 29 Mode B</p>
+            <p className="hud-label text-solana">Jupiter DTF · Oct 8 Mode B</p>
             <h2 className="headline mt-2 text-2xl sm:text-3xl">Soft TGE teaser — not a live sale yet.</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
-              Boltz (BTR) soft TGE target: Tuesday Sep 29, 2026 PT via Jupiter DTF (Studio / secondary
+              Boltz (BTR) soft TGE target: Thursday Oct 8, 2026 PT via Jupiter DTF (Studio / secondary
               later). Jupiter DTF is for BTR only — RTL does not launch on Jupiter. RTL mainnet ships
               via boltorium.co / the app. No buy button, mint address, or price here until rails are live.
               Tokens never sold via Stripe or Whop. Watch for launch alerts — free Enter App meanwhile.
@@ -306,7 +306,7 @@ export default function MarketingHome() {
           <p className="hud-label text-cyan">Community</p>
           <h2 className="headline mt-2 text-3xl">Ride with the crew</h2>
           <p className="mx-auto mt-3 max-w-lg text-bone/65">
-            Follow on X for Sep 29 launch alerts. Discord invite is not public yet — request access by email.
+            Follow on X for Oct 8 launch alerts. Discord invite is not public yet — request access by email.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <a
