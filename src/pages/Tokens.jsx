@@ -25,7 +25,7 @@ export default function Tokens() {
           Ride on Boltorium → earn <strong className="text-cyan">RTL</strong> in the app → the market
           token is <strong className="text-bolt">Boltz (BTR)</strong> on Solana via{' '}
           <strong className="text-bone">Jupiter DTF</strong> (BTR only). Soft TGE target{' '}
-          <strong className="text-bone">Tue Sep 29, 2026 PT · Mode B</strong> — teaser + interest only
+          <strong className="text-bone">Thu Oct 8, 2026 PT · Mode B</strong> — teaser + interest only
           until sale rails are live. RTL mainnet ships via boltorium.co — not Jupiter.
         </p>
 
@@ -74,10 +74,10 @@ export default function Tokens() {
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
-            <p className="hud-label text-solana">Sep 29 · Mode B soft TGE</p>
+            <p className="hud-label text-solana">Oct 8 · Mode B soft TGE</p>
             <h2 className="headline mt-2 text-2xl sm:text-3xl">Jupiter DTF — teaser, not a buy button</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
-              Target: <strong className="text-bone">Tuesday Sep 29, 2026 PT</strong>. Path: Jupiter DTF
+              Target: <strong className="text-bone">Thursday Oct 8, 2026 PT</strong>. Path: Jupiter DTF
               sale first — <strong className="text-bone">Boltz / BTR only</strong>. RTL does not launch
               on Jupiter. No mint address, price, or live purchase CTA on this portal until rails are
               actually live. Join the free app and watch for BTR launch alerts.

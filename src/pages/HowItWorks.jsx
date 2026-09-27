@@ -21,7 +21,7 @@ const GET_STARTED = [
   {
     n: '04',
     t: 'Market Boltz',
-    d: 'Boltz (BTR) is the tradeable market coin. Soft TGE via Jupiter DTF (BTR only) — target Tue Sep 29, 2026 PT Mode B. RTL mainnet via boltorium.co / the app, not Jupiter. Teaser + interest only until live — no buy button here yet.',
+    d: 'Boltz (BTR) is the tradeable market coin. Soft TGE via Jupiter DTF (BTR only) — target Thu Oct 8, 2026 PT Mode B. RTL mainnet via boltorium.co / the app, not Jupiter. Teaser + interest only until live — no buy button here yet.',
   },
 ];
 

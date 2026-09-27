@@ -40,7 +40,7 @@ export default function Ecosystem() {
               <p className="hud-label text-bolt">MARKET</p>
               <p className="headline mt-1 text-xl text-bolt">Boltz / BTR</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold coin. Soft TGE via Jupiter DTF (BTR only) — Tue Sep 29, 2026 PT Mode B teaser. RTL does not launch on Jupiter.
+                Tradeable gold coin. Soft TGE via Jupiter DTF (BTR only) — Thu Oct 8, 2026 PT Mode B teaser. RTL does not launch on Jupiter.
                 ≥250k BTR purchased unlocks public (educational). Riding does not mint BTR.
               </p>
             </div>
