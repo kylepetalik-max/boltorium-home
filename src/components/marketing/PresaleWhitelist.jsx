@@ -39,7 +39,7 @@ export default function PresaleWhitelist() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-bone/80 sm:text-lg md:mx-0">
             First 500 riders to sign up free at boltorium.co get whitelisted to buy Boltz before the
-            public mainnet launch (planned Tue Sep 29 PT).
+            public mainnet launch (planned Thu Oct 8 PT).
           </p>
           <div className="mt-7 flex justify-center md:justify-start">
             <a
