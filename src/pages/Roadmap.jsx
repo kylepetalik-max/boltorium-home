@@ -12,7 +12,7 @@ const PHASES = [
   },
   {
     status: 'OCT 8',
-    color: 'text-cyan',
+    color: 'text-champagne',
     t: 'Jupiter DTF soft TGE teaser (Mode B)',
     d: 'Target Thu Oct 8, 2026 PT: Boltz / BTR soft TGE via Jupiter DTF (BTR only — RTL does not launch on Jupiter). Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
   },

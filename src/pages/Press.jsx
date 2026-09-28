@@ -17,11 +17,11 @@ export default function Press() {
   return (
     <MarketingShell title="Press & listings — BOLTORIUM">
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
-        <p className="hud-label text-cyan">For press &amp; listings</p>
+        <p className="hud-label text-champagne">For press &amp; listings</p>
         <h1 className="headline mt-2 text-4xl sm:text-5xl">Outreach checklist</h1>
         <p className="mt-4 text-bone/70">
           We do not buy backlinks. This page is a human checklist for relevant, non-spam outreach.
-          Label Boltorium honestly: earn = <strong className="text-cyan">RTL</strong>, market ={' '}
+          Label Boltorium honestly: earn = <strong className="text-holo">RTL</strong>, market ={' '}
           <strong className="text-bolt">Boltz / BTR</strong> via Jupiter DTF (BTR only; RTL via boltorium.co) — no fake rider counts,
           prices, or live buy claims before rails are live.
         </p>
@@ -30,13 +30,13 @@ export default function Press() {
           <p className="hud-label text-bolt">Contact</p>
           <p className="mt-2 text-sm text-bone/75">
             Press &amp; listings:{' '}
-            <a className="text-cyan hover:text-bolt" href={`mailto:${PRESS_EMAIL}`}>
+            <a className="text-champagne hover:text-bolt" href={`mailto:${PRESS_EMAIL}`}>
               {PRESS_EMAIL}
             </a>
           </p>
           <p className="mt-2 text-sm text-bone/60">
             Social:{' '}
-            <a className="text-cyan hover:text-bolt" href={X_URL} target="_blank" rel="noreferrer">
+            <a className="text-champagne hover:text-bolt" href={X_URL} target="_blank" rel="noreferrer">
               x.com/boltoriumrtl
             </a>
           </p>
@@ -55,7 +55,7 @@ export default function Press() {
               key={c}
               className="flex gap-3 rounded-xl border border-white/10 bg-void/70 px-4 py-3 text-sm text-bone/75"
             >
-              <span className="font-mono text-xs text-cyan">{String(i + 1).padStart(2, '0')}</span>
+              <span className="font-mono text-xs text-champagne">{String(i + 1).padStart(2, '0')}</span>
               <span>{c}</span>
             </li>
           ))}
@@ -68,7 +68,7 @@ export default function Press() {
             Jupiter DTF (BTR only). RTL mainnet via boltorium.co — not Jupiter. Soft TGE target Thu
             Oct 8, 2026 PT Mode B. Free Enter App — no Whop, no fake buy button yet.
           </p>
-          <Link to="/tokens" className="mt-3 inline-flex font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-cyan">
+          <Link to="/tokens" className="mt-3 inline-flex font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-champagne">
             Dual-token page →
           </Link>
         </div>

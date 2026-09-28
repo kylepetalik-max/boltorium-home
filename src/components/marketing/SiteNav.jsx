@@ -35,23 +35,33 @@ export default function SiteNav() {
   };
 
   return (
-    <header className="site-nav sticky top-0 z-40 border-b border-white/10 bg-void/85 backdrop-blur-xl">
+    <header className="site-nav sticky top-0 z-40 border-b border-bolt/20 bg-void/85 shadow-[0_1px_0_rgba(242,201,76,0.08),0_8px_24px_rgba(0,0,0,0.35)] backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
-        <Link to="/" className="flex shrink-0 items-center gap-2">
+        <Link to="/" className="flex shrink-0 items-center gap-1.5" aria-label="BOLTORIUM home">
           <img
-            src={asset('brand/boltorium-graffiti-v1.png')}
-            alt="BOLTORIUM"
-            className="h-8 w-auto max-w-[148px] object-contain sm:h-9"
+            src={asset('brand/boltorium-badge-200.webp')}
+            alt="BOLTORIUM winged gold gear badge"
+            width="200"
+            height="172"
+            className="brand-glow h-10 w-auto object-contain sm:h-11 lg:h-10"
+          />
+          <img
+            src={asset('brand/boltorium-wordmark-drip-320.webp')}
+            alt=""
+            aria-hidden="true"
+            width="320"
+            height="127"
+            className="hidden h-8 w-auto object-contain min-[400px]:block sm:h-9 lg:hidden xl:block xl:h-7"
           />
         </Link>
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0.5 lg:flex">
           {ROUTES.map((l) => (
             <NavLink
               key={l.to}
               to={l.to}
               className={({ isActive }) =>
-                `rounded-full px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider transition ${
-                  isActive ? 'bg-bolt/15 text-bolt' : 'text-bone/65 hover:text-bolt'
+                `whitespace-nowrap rounded-full px-1.5 py-1.5 font-display text-[11px] font-bold uppercase tracking-wide xl:px-2 transition ${
+                  isActive ? 'bg-bolt/15 text-bolt shadow-[inset_0_0_0_1px_rgba(242,201,76,0.35)]' : 'text-bone/70 hover:text-bolt'
                 }`
               }
             >
@@ -63,7 +73,7 @@ export default function SiteNav() {
               key={s.id}
               type="button"
               onClick={() => goSection(s.id)}
-              className="rounded-full px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider text-bone/65 transition hover:text-bolt"
+              className="whitespace-nowrap rounded-full px-1.5 py-1.5 font-display text-[11px] font-bold uppercase tracking-wide text-bone/70 transition hover:text-bolt xl:px-2"
             >
               {s.label}
             </button>
@@ -72,14 +82,14 @@ export default function SiteNav() {
             href={X_URL}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider text-bone/65 transition hover:text-bolt"
+            className="whitespace-nowrap rounded-full px-1.5 py-1.5 font-display text-[11px] font-bold uppercase tracking-wide text-bone/70 transition hover:text-bolt xl:px-2"
           >
             X
           </a>
           <a
             href={DISCORD_URL}
             title={DISCORD_LABEL}
-            className="rounded-full px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider text-bone/65 transition hover:text-bolt"
+            className="whitespace-nowrap rounded-full px-1.5 py-1.5 font-display text-[11px] font-bold uppercase tracking-wide text-bone/70 transition hover:text-bolt xl:px-2"
           >
             Discord
           </a>
@@ -87,13 +97,13 @@ export default function SiteNav() {
         <div className="flex items-center gap-2">
           <Link
             to="/how-it-works"
-            className="hidden rounded-full border border-cyan/40 px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider text-cyan sm:inline-flex"
+            className="hidden rounded-full border border-champagne/40 px-3 py-1.5 font-display text-[11px] font-bold uppercase tracking-wider whitespace-nowrap text-champagne transition hover:bg-champagne/10 sm:inline-flex"
           >
             Learn
           </Link>
           <a
             href={APP_URL}
-            className="inline-flex rounded-full bg-bolt px-3.5 py-1.5 font-display text-[11px] font-extrabold uppercase tracking-wider text-void shadow-bolt"
+            className="btn-molten-sm inline-flex whitespace-nowrap rounded-full px-3.5 py-1.5 font-display text-[11px] font-extrabold uppercase tracking-wider"
           >
             Enter App
           </a>

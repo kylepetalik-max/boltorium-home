@@ -8,7 +8,7 @@ export default function AppStatus() {
       <section className="relative overflow-hidden px-4 py-20 sm:px-6 sm:py-28">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_20%,rgba(56,189,248,0.16),transparent_45%),radial-gradient(ellipse_at_70%_70%,rgba(139,92,246,0.14),transparent_42%)]" />
         <div className="relative mx-auto max-w-3xl text-center">
-          <p className="hud-label text-cyan">LIVE APP</p>
+          <p className="hud-label text-champagne">LIVE APP</p>
           <h1 className="headline mt-4 text-4xl text-bone sm:text-6xl">
             Boltorium is live.
           </h1>

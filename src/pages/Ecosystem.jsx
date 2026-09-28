@@ -21,12 +21,12 @@ export default function Ecosystem() {
             <p className="hud-label text-solana">Ecosystem</p>
             <h1 className="headline mt-2 text-4xl sm:text-5xl">The loop riders live in</h1>
             <p className="mt-4 max-w-xl text-bone/70">
-              Ride → verify → earn <span className="text-cyan">RTL</span>. Market token is{' '}
+              Ride → verify → earn <span className="text-holo">RTL</span>. Market token is{' '}
               <span className="text-bolt">Boltz (BTR)</span> via Jupiter DTF (BTR only; RTL via boltorium.co). Free Enter App — graffiti
               energy, no Whop paywall.
             </p>
           </div>
-          <img src={asset('brand/b-mark.png')} alt="" className="h-24 w-24 object-contain opacity-90 md:h-28 md:w-28" />
+          <img src={asset('brand/boltorium-badge-200.webp')} alt="" width="200" height="172" className="brand-glow h-24 w-auto object-contain md:h-28" />
         </div>
 
         <section id="dual-token" className="mt-10 overflow-hidden rounded-3xl border border-bolt/30 bg-void/80">
@@ -45,8 +45,8 @@ export default function Ecosystem() {
               </p>
             </div>
             <div>
-              <p className="hud-label text-cyan">EARN</p>
-              <p className="headline mt-1 text-xl text-cyan">RTL / RTL</p>
+              <p className="hud-label text-holo">EARN</p>
+              <p className="headline mt-1 text-xl text-holo">RTL / RTL</p>
               <p className="mt-2 text-sm text-bone/65">
                 Holographic ride rewards. Striker PASS → RTL. Phase 1 may be in-app credits. Option B:
                 two assets, no auto-convert.
@@ -54,7 +54,7 @@ export default function Ecosystem() {
             </div>
           </div>
           <div className="border-t border-white/10 px-6 pb-6 sm:px-8">
-            <Link to="/tokens" className="font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-cyan">
+            <Link to="/tokens" className="font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-champagne">
               Full dual-token page →
             </Link>
           </div>
@@ -62,7 +62,7 @@ export default function Ecosystem() {
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {PIECES.map((p) => (
-            <div key={p.t} className="holo-card rounded-2xl p-5">
+            <div key={p.t} className="gold-card rounded-2xl p-5">
               <p className="headline text-lg text-bolt">{p.t}</p>
               <p className="mt-2 text-sm text-bone/65">{p.d}</p>
             </div>

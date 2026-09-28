@@ -827,3 +827,258 @@ select {
     #050605 100%
   );
 }
+
+
+/* ═══════════════════════════════════════════════════════════════════
+   DRIP-GOLD REBRAND (marketing portal)
+   Boltz / BTR = molten gold · RTL = holographic (RTL elements only)
+   ═══════════════════════════════════════════════════════════════════ */
+
+:root {
+  --drip-a: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='52' viewBox='0 0 260 52'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='52'%3E%3Cstop offset='0' stop-color='%23fff1b8'/%3E%3Cstop offset='.18' stop-color='%23f2c94c'/%3E%3Cstop offset='.6' stop-color='%23d49a1f'/%3E%3Cstop offset='1' stop-color='%23a8740f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='url(%23a)'%3E%3Crect width='260' height='6'/%3E%3Cpath d='M17.0 0C22.9 6.4 25.7 13.4 25.3 21.8C24.8 24.5 24.0 26.3 24.0 26.0A6.0 6.0 0 0 0 36.0 26.0C36.0 26.3 35.2 24.5 34.7 21.8C34.3 13.4 37.1 6.4 43.0 0Z'/%3E%3Cpath d='M82.0 0C89.2 9.6 92.6 20.2 92.2 35.2C91.5 38.6 90.5 40.9 90.5 40.5A7.5 7.5 0 0 0 105.5 40.5C105.5 40.9 104.5 38.6 103.8 35.2C103.4 20.2 106.8 9.6 114.0 0Z'/%3E%3Cpath d='M145.0 0C149.9 4.0 152.4 8.4 152.1 11.5C151.7 13.8 151.0 15.2 151.0 15.0A5.0 5.0 0 0 0 161.0 15.0C161.0 15.2 160.3 13.8 159.9 11.5C159.6 8.4 162.1 4.0 167.0 0Z'/%3E%3Cpath d='M202.0 0C208.3 8.0 211.3 16.8 210.9 29.0C210.4 31.9 209.5 33.8 209.5 33.5A6.5 6.5 0 0 0 222.5 33.5C222.5 33.8 221.6 31.9 221.1 29.0C220.7 16.8 223.7 8.0 230.0 0Z'/%3E%3C/g%3E%3Cellipse cx='27.9' cy='25.1' rx='1.3' ry='2.3' fill='%23fff6d0' fill-opacity='.7'/%3E%3Cellipse cx='95.4' cy='39.4' rx='1.6' ry='2.9' fill='%23fff6d0' fill-opacity='.7'/%3E%3Cellipse cx='154.2' cy='14.2' rx='1.1' ry='1.9' fill='%23fff6d0' fill-opacity='.7'/%3E%3Cellipse cx='213.7' cy='32.5' rx='1.4' ry='2.5' fill='%23fff6d0' fill-opacity='.7'/%3E%3C/svg%3E");
+  --drip-b: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='410' height='52' viewBox='0 0 410 52'%3E%3Cdefs%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='52'%3E%3Cstop offset='0' stop-color='%23fff1b8'/%3E%3Cstop offset='.18' stop-color='%23f2c94c'/%3E%3Cstop offset='.6' stop-color='%23d49a1f'/%3E%3Cstop offset='1' stop-color='%23a8740f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='url(%23b)'%3E%3Crect width='410' height='4'/%3E%3Cpath d='M54.0 0C58.5 5.2 60.4 10.9 60.1 17.5C59.7 19.8 59.0 21.2 59.0 21.0A5.0 5.0 0 0 0 69.0 21.0C69.0 21.2 68.3 19.8 67.9 17.5C67.6 10.9 69.5 5.2 74.0 0Z'/%3E%3Cpath d='M178.0 0C183.4 8.8 185.7 18.5 185.3 33.8C184.8 36.5 184.0 38.3 184.0 38.0A6.0 6.0 0 0 0 196.0 38.0C196.0 38.3 195.2 36.5 194.7 33.8C194.3 18.5 196.6 8.8 202.0 0Z'/%3E%3Cpath d='M294.0 0C297.6 3.2 299.1 6.7 298.9 9.2C298.6 11.0 298.0 12.2 298.0 12.0A4.0 4.0 0 0 0 306.0 12.0C306.0 12.2 305.4 11.0 305.1 9.2C304.9 6.7 306.4 3.2 310.0 0Z'/%3E%3Cpath d='M359.0 0C363.9 6.8 366.0 14.3 365.7 24.6C365.3 27.1 364.5 28.8 364.5 28.5A5.5 5.5 0 0 0 375.5 28.5C375.5 28.8 374.7 27.1 374.3 24.6C374.0 14.3 376.1 6.8 381.0 0Z'/%3E%3C/g%3E%3Cellipse cx='62.2' cy='20.2' rx='1.1' ry='1.9' fill='%23fff6d0' fill-opacity='.7'/%3E%3Cellipse cx='187.9' cy='37.1' rx='1.3' ry='2.3' fill='%23fff6d0' fill-opacity='.7'/%3E%3Cellipse cx='300.6' cy='11.4' rx='0.9' ry='1.5' fill='%23fff6d0' fill-opacity='.7'/%3E%3Cellipse cx='368.1' cy='27.7' rx='1.2' ry='2.1' fill='%23fff6d0' fill-opacity='.7'/%3E%3C/svg%3E");
+  --drip-btn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='14' viewBox='0 0 64 14'%3E%3Cdefs%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='14'%3E%3Cstop offset='0' stop-color='%23b07a10'/%3E%3Cstop offset='1' stop-color='%23e2ac2c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='url(%23c)'%3E%3Cpath d='M11.0 0C13.2 2.0 14.1 4.2 14.0 5.6C13.8 6.8 13.4 7.5 13.4 7.4A2.6 2.6 0 0 0 18.6 7.4C18.6 7.5 18.2 6.8 18.0 5.6C17.9 4.2 18.8 2.0 21.0 0Z'/%3E%3Cpath d='M38.0 0C40.7 2.8 41.7 5.9 41.5 8.6C41.2 10.0 40.8 11.0 40.8 10.8A3.2 3.2 0 0 0 47.2 10.8C47.2 11.0 46.8 10.0 46.5 8.6C46.3 5.9 47.3 2.8 50.0 0Z'/%3E%3C/g%3E%3C/svg%3E");
+  --bolt-glyph: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 32'%3E%3Cpath d='M15 0 2 18h8l-3 14 15-20h-8l4-12z'/%3E%3C/svg%3E");
+  --molten: linear-gradient(180deg, #fff1b8 0%, #f5d565 22%, #f2c94c 40%, #d9a126 72%, #b07a10 100%);
+  --molten-text: linear-gradient(180deg, #fff4c4 0%, #f7d86a 38%, #f2c94c 55%, #d9a126 100%);
+  --holo: linear-gradient(100deg, #7dd3fc 0%, #a5b4fc 20%, #f0abfc 40%, #fde68a 60%, #86efac 80%, #7dd3fc 100%);
+  --gold-line: linear-gradient(90deg, rgba(242, 201, 76, 0) 0%, #f2c94c 20%, #fff1b8 50%, #f2c94c 80%, rgba(242, 201, 76, 0) 100%);
+}
+
+/* Molten gold text for Boltz headline words */
+.text-molten {
+  background: var(--molten-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #f2c94c; /* fallback */
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 14px rgba(242, 201, 76, 0.28));
+}
+
+/* Holographic text — RTL only */
+.text-holo {
+  background: var(--holo);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #a5b4fc; /* fallback */
+  -webkit-text-fill-color: transparent;
+}
+
+/* Primary CTA: molten gold pill with glow + a couple of drips */
+.btn-bolt {
+  position: relative;
+  isolation: isolate;
+  border: 1px solid rgba(255, 241, 184, 0.55);
+  background: var(--molten);
+  color: #1a1204;
+  text-shadow: 0 1px 0 rgba(255, 244, 200, 0.45);
+  box-shadow:
+    0 0 22px rgba(242, 201, 76, 0.35),
+    0 6px 18px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -3px 6px rgba(120, 72, 0, 0.35);
+}
+.btn-bolt::after {
+  content: '';
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 58%;
+  width: 64px;
+  height: 14px;
+  background: var(--drip-btn) no-repeat 0 0 / 64px 14px;
+  pointer-events: none;
+}
+.btn-bolt:hover,
+.btn-bolt:focus-visible {
+  box-shadow:
+    0 0 34px rgba(242, 201, 76, 0.55),
+    0 6px 18px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    inset 0 -3px 6px rgba(120, 72, 0, 0.35);
+}
+.btn-bolt:focus-visible,
+.btn-molten-sm:focus-visible {
+  outline: 2px solid #fff1b8;
+  outline-offset: 3px;
+}
+
+/* Compact molten CTA (nav / community) */
+.btn-molten-sm {
+  background: var(--molten);
+  color: #1a1204;
+  border: 1px solid rgba(255, 241, 184, 0.55);
+  box-shadow: 0 0 16px rgba(242, 201, 76, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Gold-rimmed card with soft glow */
+.gold-card {
+  background:
+    linear-gradient(180deg, rgba(20, 16, 8, 0.94), rgba(8, 8, 6, 0.96)) padding-box,
+    linear-gradient(160deg, #fff1b8 0%, #d4af37 30%, #6b5212 60%, #f2c94c 100%) border-box;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: 0 0 22px rgba(242, 201, 76, 0.1), 0 10px 28px rgba(0, 0, 0, 0.45);
+  backdrop-filter: none;
+  transition: box-shadow 0.25s ease;
+}
+.gold-card:hover {
+  box-shadow: 0 0 32px rgba(242, 201, 76, 0.22), 0 10px 28px rgba(0, 0, 0, 0.45);
+}
+
+/* Legacy cyan/purple gradient card → gold rim */
+.cv-card {
+  background:
+    linear-gradient(#0b0a07, #0b0a07) padding-box,
+    linear-gradient(160deg, #f2c94c 0%, #6b5212 55%, #d4af37 100%) border-box;
+  box-shadow: 0 0 18px rgba(242, 201, 76, 0.08);
+}
+
+/* Holographic card — RTL only */
+.holo-card {
+  background:
+    linear-gradient(170deg, rgba(14, 14, 22, 0.94), rgba(8, 8, 12, 0.96)) padding-box,
+    linear-gradient(120deg, #7dd3fc, #a5b4fc, #f0abfc, #fde68a, #86efac, #7dd3fc) border-box;
+  border: 1px solid transparent;
+  box-shadow:
+    0 0 22px rgba(165, 180, 252, 0.16),
+    0 0 44px rgba(240, 171, 252, 0.07),
+    0 10px 28px rgba(0, 0, 0, 0.45);
+  backdrop-filter: none;
+}
+.holo-card:active {
+  border-color: transparent;
+  box-shadow: 0 0 30px rgba(165, 180, 252, 0.28);
+}
+
+/* Token visual frames */
+.token-visual {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.85rem;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+.token-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.token-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgba(242, 201, 76, 0.28), inset 0 -40px 40px -20px rgba(0, 0, 0, 0.55);
+}
+.token-visual--holo::after {
+  box-shadow: inset 0 0 0 1px rgba(165, 180, 252, 0.35), inset 0 -40px 40px -20px rgba(0, 0, 0, 0.55);
+}
+
+/* Drip-edge divider between sections */
+.drip-divider {
+  position: relative;
+  z-index: 5;
+  height: 52px;
+  margin-bottom: -52px;
+  pointer-events: none;
+  background:
+    var(--drip-a) repeat-x 0 0 / 260px 52px,
+    var(--drip-b) repeat-x 90px 0 / 410px 52px;
+  filter: drop-shadow(0 4px 10px rgba(242, 201, 76, 0.18));
+}
+.drip-divider--flow {
+  margin-bottom: 0;
+}
+
+/* Thin molten rule */
+.gold-rule {
+  height: 1px;
+  background: var(--gold-line);
+  opacity: 0.8;
+}
+
+/* Lightning-bolt accent before a label */
+.bolt-mark::before {
+  content: '';
+  display: inline-block;
+  width: 0.72em;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: -0.16em;
+  background: var(--molten);
+  -webkit-mask: var(--bolt-glyph) no-repeat center / contain;
+  mask: var(--bolt-glyph) no-repeat center / contain;
+  filter: drop-shadow(0 0 4px rgba(242, 201, 76, 0.6));
+}
+.bolt-mark--holo::before {
+  background: var(--holo);
+}
+
+/* Hero art */
+.hero-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+.hero-scrim {
+  background:
+    radial-gradient(ellipse 60% 55% at 50% 42%, rgba(5, 6, 5, 0.55) 0%, rgba(5, 6, 5, 0.25) 70%, transparent 100%),
+    linear-gradient(180deg, rgba(5, 6, 5, 0.72) 0%, rgba(5, 6, 5, 0.62) 45%, rgba(5, 6, 5, 0.9) 82%, #050605 100%);
+}
+.hero-wordmark {
+  filter: drop-shadow(0 4px 0 rgba(0, 0, 0, 0.65)) drop-shadow(0 0 28px rgba(242, 201, 76, 0.35));
+}
+.brand-glow {
+  filter: drop-shadow(0 0 10px rgba(242, 201, 76, 0.35));
+}
+
+/* Featured poster frame */
+.poster-frame {
+  position: relative;
+  border-radius: 1.25rem;
+  padding: 1px;
+  background: linear-gradient(160deg, #fff1b8, #d4af37 35%, #5c4510 70%, #f2c94c);
+  box-shadow: 0 0 40px rgba(242, 201, 76, 0.18), 0 18px 40px rgba(0, 0, 0, 0.55);
+}
+.poster-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(1.25rem - 1px);
+}
+
+/* Motion — only when the user hasn't asked for less */
+@media (prefers-reduced-motion: no-preference) {
+  .btn-bolt::after {
+    transform-origin: top center;
+    animation: drip-sway 4.8s ease-in-out infinite;
+  }
+  .text-holo {
+    animation: holo-shift 7s linear infinite;
+  }
+  .hero-wordmark {
+    animation: logo-float-soft 6s ease-in-out infinite;
+  }
+}
+@keyframes drip-sway {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(1.25); }
+}
+@keyframes holo-shift {
+  from { background-position: 0% 50%; }
+  to { background-position: 200% 50%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
