@@ -20,7 +20,7 @@ export default function PresaleWhitelist() {
           <source srcSet={asset('presale/boltorium-presale-500-tags.webp')} type="image/webp" />
           <img
             src={asset('presale/boltorium-presale-500-tags.png')}
-            alt="Boltz presale whitelist poster: invite only, 500 spots then it locks, first 500 riders get whitelisted, mainnet planned Thursday Oct 8"
+            alt="Whitelist poster — First access to Boltz, October 8th: invite only, 500 spots then it locks, first 500 riders get whitelisted, mainnet planned Thursday Oct 8"
             width="1080"
             height="1350"
             loading="eager"
@@ -30,7 +30,7 @@ export default function PresaleWhitelist() {
         </picture>
 
         <div className="text-center md:text-left">
-          <p className="hud-label !text-gold">Boltz presale whitelist · first 500</p>
+          <p className="hud-label !text-gold">First access to Boltz, October 8th · whitelist · first 500</p>
           <h2
             id="presale-whitelist-heading"
             className="headline mt-3 text-3xl leading-tight text-gold sm:text-4xl lg:text-5xl"
@@ -38,8 +38,7 @@ export default function PresaleWhitelist() {
             500 WHITELIST SPOTS. THEN IT LOCKS.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-bone/80 sm:text-lg md:mx-0">
-            First 500 riders to sign up free at boltorium.co get whitelisted to buy Boltz before the
-            public mainnet launch (planned Thu Oct 8 PT).
+            First 500 riders to sign up free at boltorium.co get first access to Boltz, October 8th.
           </p>
           <div className="mt-7 flex justify-center md:justify-start">
             <a
