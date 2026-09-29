@@ -44,7 +44,7 @@ export default function Roadmap() {
     <MarketingShell title="Roadmap / Mainnet — BOLTORIUM">
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
         <p className="hud-label text-solana">Roadmap / Launch</p>
-        <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
+        <h1 className="headline graffiti-head mt-2 text-4xl sm:text-5xl"><span className="graffiti-ink">What&apos;s happening</span></h1>
         <p className="mt-4 text-bone/70">
           Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via Jupiter DTF
           (BTR only). Soft TGE target <strong className="text-bone">Thu Oct 8, 2026 PT Mode B</strong>{' '}
@@ -53,7 +53,7 @@ export default function Roadmap() {
 
         <img
           src={asset('banners/banner-jupiter-launch-1500x500.png')}
-          alt="Jupiter DTF Oct 8 soft TGE teaser"
+          alt="Jupiter launch banner: BOLTZ · Boltzcoin / BTR — First access to Boltz, October 8th"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
 

@@ -19,7 +19,7 @@ export default function Ecosystem() {
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="hud-label text-solana">Ecosystem</p>
-            <h1 className="headline mt-2 text-4xl sm:text-5xl">The loop riders live in</h1>
+            <h1 className="headline graffiti-head mt-2 text-4xl sm:text-5xl"><span className="graffiti-ink">The loop riders live in</span></h1>
             <p className="mt-4 max-w-xl text-bone/70">
               Ride → verify → earn <span className="text-holo">RTL</span>. Market token is{' '}
               <span className="text-bolt">Boltz (BTR)</span> via Jupiter DTF (BTR only; RTL via boltorium.co). Free Enter App — graffiti

@@ -18,8 +18,10 @@ export default function Tokens() {
     <MarketingShell title="Tokens — BOLTORIUM dual-token">
       <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6">
         <p className="hud-label bolt-mark text-bolt">Dual-token protocol</p>
-        <h1 className="headline mt-2 text-4xl sm:text-5xl">
-          Market <span className="text-molten">Boltz</span> · Earn <span className="text-holo">RTL</span>
+        <h1 className="headline graffiti-head mt-2 text-4xl sm:text-5xl">
+          <span className="graffiti-ink">
+            Market <span className="text-molten">Boltz</span> · Earn <span className="text-holo">RTL</span>
+          </span>
         </h1>
         <p className="mt-4 max-w-2xl text-bone/70">
           Ride on Boltorium → earn <strong className="text-holo">RTL</strong> in the app → the market
@@ -29,7 +31,7 @@ export default function Tokens() {
           until sale rails are live. RTL mainnet ships via boltorium.co — not Jupiter.
         </p>
 
-        <div className="gold-card mt-8 overflow-hidden rounded-2xl p-0">
+        <div className="gold-card spark-edge mt-8 overflow-hidden rounded-2xl p-0">
           <img
             src={asset('brand/hero-coin-burst.webp')}
             srcSet={`${asset('brand/hero-coin-burst-768.webp')} 768w, ${asset('brand/hero-coin-burst.webp')} 1280w`}
@@ -45,7 +47,7 @@ export default function Tokens() {
         <div className="drip-divider drip-divider--flow mx-3" aria-hidden="true" />
 
         <div className="mt-6 grid gap-5 sm:grid-cols-2">
-          <article className="gold-card rounded-2xl p-5 sm:p-6">
+          <article className="gold-card spark-edge rounded-2xl p-5 sm:p-6">
             <div className="token-visual mb-4">
               <img
                 src={asset('brand/boltzcoin-640.webp')}
@@ -67,7 +69,7 @@ export default function Tokens() {
               <em>not</em> mint BTR.
             </p>
           </article>
-          <article className="holo-card rounded-2xl p-5 sm:p-6">
+          <article className="holo-card spark-edge spark-edge--holo rounded-2xl p-5 sm:p-6">
             <div className="token-visual token-visual--holo mb-4">
               <img
                 src={asset('brand/rtl-coin-640.webp')}
@@ -93,12 +95,12 @@ export default function Tokens() {
         <section className="mt-10 overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-molten/10">
           <img
             src={asset('banners/banner-jupiter-launch-1500x500.png')}
-            alt="Jupiter DTF soft TGE teaser"
+            alt="Jupiter launch banner: BOLTZ · Boltzcoin / BTR — First access to Boltz, October 8th"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
             <p className="hud-label text-solana">Oct 8 · Mode B soft TGE</p>
-            <h2 className="headline mt-2 text-2xl sm:text-3xl">Jupiter DTF — teaser, not a buy button</h2>
+            <h2 className="headline graffiti-head mt-2 text-2xl sm:text-3xl"><span className="graffiti-ink">Jupiter DTF — teaser, not a buy button</span></h2>
             <p className="mt-3 max-w-2xl text-bone/70">
               Target: <strong className="text-bone">Thursday Oct 8, 2026 PT</strong>. Path: Jupiter DTF
               sale first — <strong className="text-bone">Boltz / BTR only</strong>. RTL does not launch

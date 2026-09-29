@@ -1082,3 +1082,229 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* ═══ v2: ELECTRIC SPARKS + GRAFFITI HEADLINERS ═══ */
+
+:root {
+  --drip-head: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='44' viewBox='0 0 360 44'%3E%3Cdefs%3E%3ClinearGradient id='h' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='44'%3E%3Cstop offset='0' stop-color='%23fff1b8'/%3E%3Cstop offset='.22' stop-color='%23f2c94c'/%3E%3Cstop offset='.65' stop-color='%23d49a1f'/%3E%3Cstop offset='1' stop-color='%23a8740f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='url(%23h)'%3E%3Cpath d='M0.0 3.0 L11.0 1.9 L22.0 3.5 L33.0 1.6 L44.0 3.1 L55.0 2.6 L66.0 1.6 L77.0 3.0 L88.0 1.5 L99.0 2.8 L110.0 1.6 L121.0 1.7 L132.0 2.8 L143.0 4.0 L154.0 1.8 L165.0 2.1 L176.0 3.4 L187.0 4.4 L198.0 3.2 L209.0 2.7 L220.0 4.5 L231.0 1.5 L242.0 4.1 L253.0 2.3 L264.0 1.9 L275.0 1.8 L286.0 2.4 L297.0 4.0 L308.0 2.0 L319.0 3.3 L330.0 3.4 L341.0 2.6 L360.0 3.0 L360.0 11.0 L349.0 9.4 L338.0 9.9 L327.0 11.6 L316.0 10.7 L305.0 10.3 L294.0 11.3 L283.0 10.8 L272.0 10.3 L261.0 12.1 L250.0 11.7 L239.0 10.1 L228.0 11.3 L217.0 11.1 L206.0 12.4 L195.0 11.8 L184.0 10.2 L173.0 12.7 L162.0 9.6 L151.0 10.7 L140.0 11.9 L129.0 9.7 L118.0 11.0 L107.0 9.3 L96.0 11.6 L85.0 12.0 L74.0 11.3 L63.0 12.4 L52.0 10.3 L41.0 11.7 L30.0 11.3 L19.0 11.3 L0.0 11.0Z'/%3E%3Cpath d='M26.5 0C29.9 4.8 31.3 10.1 31.0 17.5C30.7 19.2 30.2 20.4 30.2 20.2A3.8 3.8 0 0 0 37.8 20.2C37.8 20.4 37.3 19.2 37.0 17.5C36.7 10.1 38.1 4.8 41.5 0Z' transform='translate(0 9)'/%3E%3Cpath d='M89.5 0C93.3 6.8 94.8 14.3 94.6 26.5C94.2 28.5 93.6 29.8 93.6 29.6A4.4 4.4 0 0 0 102.4 29.6C102.4 29.8 101.8 28.5 101.4 26.5C101.2 14.3 102.7 6.8 106.5 0Z' transform='translate(0 9)'/%3E%3Cpath d='M165.0 0C167.7 2.8 168.8 5.9 168.7 8.9C168.4 10.2 168.0 11.2 168.0 11.0A3.0 3.0 0 0 0 174.0 11.0C174.0 11.2 173.6 10.2 173.3 8.9C173.2 5.9 174.3 2.8 177.0 0Z' transform='translate(0 9)'/%3E%3Cpath d='M244.0 0C247.6 6.2 249.0 13.0 248.7 23.9C248.4 25.8 247.8 27.0 247.8 26.8A4.2 4.2 0 0 0 256.2 26.8C256.2 27.0 255.6 25.8 255.3 23.9C255.0 13.0 256.4 6.2 260.0 0Z' transform='translate(0 9)'/%3E%3Cpath d='M315.0 0C318.1 4.0 319.6 8.4 319.3 14.2C319.1 15.8 318.6 16.8 318.6 16.6A3.4 3.4 0 0 0 325.4 16.6C325.4 16.8 324.9 15.8 324.7 14.2C324.4 8.4 325.9 4.0 329.0 0Z' transform='translate(0 9)'/%3E%3C/g%3E%3Cellipse cx='32.7' cy='28.6' rx='0.8' ry='1.4' fill='%23fff6d0' fill-opacity='.65'/%3E%3Cellipse cx='96.5' cy='37.9' rx='1.0' ry='1.7' fill='%23fff6d0' fill-opacity='.65'/%3E%3Cellipse cx='169.9' cy='19.6' rx='0.7' ry='1.1' fill='%23fff6d0' fill-opacity='.65'/%3E%3Cellipse cx='250.5' cy='35.2' rx='0.9' ry='1.6' fill='%23fff6d0' fill-opacity='.65'/%3E%3Cellipse cx='320.8' cy='25.1' rx='0.7' ry='1.3' fill='%23fff6d0' fill-opacity='.65'/%3E%3C/svg%3E");
+  --crackle-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='18' viewBox='0 0 72 18' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 9L7 7L11 12L17 4L23 10L29 6L34 11L41 3L47 9L53 6L60 12L66 7L72 9M17 4L19 0M41 3L44 0M29 6L31 14L33 13M60 12L62 17' stroke='%23f2c94c' stroke-opacity='.55' stroke-width='3.2'/%3E%3Cpath d='M0 9L7 7L11 12L17 4L23 10L29 6L34 11L41 3L47 9L53 6L60 12L66 7L72 9M17 4L19 0M41 3L44 0M29 6L31 14L33 13M60 12L62 17' stroke='%23fff8d8' stroke-width='1.2'/%3E%3C/svg%3E");
+  --crackle-holo: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='18' viewBox='0 0 72 18' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 9L7 7L11 12L17 4L23 10L29 6L34 11L41 3L47 9L53 6L60 12L66 7L72 9M17 4L19 0M41 3L44 0M29 6L31 14L33 13M60 12L62 17' stroke='%23a5b4fc' stroke-opacity='.55' stroke-width='3.2'/%3E%3Cpath d='M0 9L7 7L11 12L17 4L23 10L29 6L34 11L41 3L47 9L53 6L60 12L66 7L72 9M17 4L19 0M41 3L44 0M29 6L31 14L33 13M60 12L62 17' stroke='%23e0f2fe' stroke-width='1.2'/%3E%3C/svg%3E");
+}
+
+@property --spark-a {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 40deg;
+}
+
+/* Graffiti section headliners — real text; gold paint + drips sit under/on each line.
+   Doubled class so it beats Tailwind's responsive text-* line-heights (emitted last). */
+.graffiti-head.graffiti-head {
+  font-family: 'Permanent Marker', Rajdhani, Inter, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.72;
+  padding-bottom: 0.2em;
+  text-shadow: 2px 2px 0 #000, -1px -1px 0 rgba(0, 0, 0, 0.55), 0 0 20px rgba(242, 201, 76, 0.2);
+}
+.graffiti-ink {
+  padding: 0 0.1em 0.44em;
+  background: var(--drip-head) repeat-x 0 100% / auto 0.62em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.graffiti-head--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* gradient-clipped words can't take a text-shadow — use drop-shadow instead */
+.graffiti-head .text-molten,
+.graffiti-head .text-holo {
+  text-shadow: none;
+  filter: drop-shadow(2px 2px 0 #000) drop-shadow(0 0 10px rgba(242, 201, 76, 0.25));
+}
+
+/* Crackling electric edge — small arc that flickers on a card border */
+.gold-card,
+.holo-card {
+  position: relative;
+}
+.gold-card::before,
+.holo-card::before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: -9px;
+  left: 14%;
+  width: 72px;
+  height: 18px;
+  background: var(--crackle-gold) no-repeat center / contain;
+  filter: drop-shadow(0 0 4px rgba(255, 226, 130, 0.9));
+  opacity: 0.55;
+  pointer-events: none;
+}
+.holo-card::before {
+  background-image: var(--crackle-holo);
+  filter: drop-shadow(0 0 4px rgba(165, 180, 252, 0.9));
+}
+.gold-card:nth-child(2n)::before,
+.holo-card:nth-child(2n)::before {
+  top: auto;
+  bottom: -9px;
+  left: auto;
+  right: 12%;
+  transform: scale(-1, -1);
+}
+.gold-card:nth-child(3n)::before {
+  left: 52%;
+}
+
+/* Travelling spark along the border (token cards, CTAs) */
+.spark-edge::after,
+.btn-bolt::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  z-index: 3;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--spark-a),
+    transparent 0deg 292deg,
+    rgba(255, 241, 184, 0.15) 305deg,
+    #fff8d8 334deg,
+    #f2c94c 342deg,
+    rgba(242, 201, 76, 0.2) 350deg,
+    transparent 360deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  filter: drop-shadow(0 0 5px rgba(255, 214, 102, 0.95));
+  pointer-events: none;
+}
+.btn-bolt::before {
+  inset: -3px;
+  padding: 2px;
+  z-index: -1;
+}
+.spark-edge--holo::after {
+  background: conic-gradient(
+    from var(--spark-a),
+    transparent 0deg 292deg,
+    rgba(125, 211, 252, 0.2) 305deg,
+    #e0f2fe 330deg,
+    #f0abfc 338deg,
+    #a5b4fc 346deg,
+    transparent 360deg
+  );
+  filter: drop-shadow(0 0 5px rgba(165, 180, 252, 0.95));
+}
+.spark-edge {
+  position: relative;
+}
+
+/* Hero sparks overlay */
+.hero-sparks {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.hero-bolt {
+  position: absolute;
+  width: clamp(22px, 3vw, 40px);
+  height: auto;
+  opacity: 0.4;
+  filter: drop-shadow(0 0 6px rgba(255, 226, 130, 0.95)) drop-shadow(0 0 16px rgba(242, 201, 76, 0.55));
+}
+.hero-spark {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 999px;
+  background: #fff4c4;
+  box-shadow: 0 0 6px 2px rgba(242, 201, 76, 0.85), 0 0 14px rgba(242, 201, 76, 0.45);
+  opacity: 0.5;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gold-card::before,
+  .holo-card::before {
+    opacity: 0;
+    animation: crackle 5.6s linear infinite;
+  }
+  .gold-card:nth-child(2n)::before,
+  .holo-card:nth-child(2n)::before { animation-delay: -1.9s; animation-duration: 6.4s; }
+  .gold-card:nth-child(3n)::before { animation-delay: -3.3s; animation-duration: 7.1s; }
+  .spark-edge::after,
+  .btn-bolt::before {
+    animation: spark-orbit 5s linear infinite, spark-flicker 2.3s steps(1, end) infinite;
+  }
+  .spark-edge--holo::after { animation-duration: 6.2s, 2.9s; animation-delay: -2s, 0s; }
+  .btn-bolt::before { animation-duration: 3.6s, 1.9s; }
+  .hero-bolt {
+    opacity: 0;
+    animation: bolt-strike 6s linear infinite;
+  }
+  .hero-bolt:nth-of-type(2) { animation-delay: -1.3s; animation-duration: 7.2s; }
+  .hero-bolt:nth-of-type(3) { animation-delay: -2.8s; animation-duration: 5.4s; }
+  .hero-bolt:nth-of-type(4) { animation-delay: -4.1s; animation-duration: 8s; }
+  .hero-bolt:nth-of-type(5) { animation-delay: -5.2s; animation-duration: 6.6s; }
+  .hero-bolt:nth-of-type(6) { animation-delay: -0.6s; animation-duration: 7.7s; }
+  .hero-spark {
+    opacity: 0;
+    animation: spark-rise 4.8s ease-out infinite;
+  }
+}
+
+@keyframes crackle {
+  0%, 58% { opacity: 0; }
+  59% { opacity: 1; }
+  60.5% { opacity: 0.2; }
+  62% { opacity: 0.95; }
+  63.5% { opacity: 0.1; }
+  64.5% { opacity: 0.8; }
+  66%, 84% { opacity: 0; }
+  85% { opacity: 0.7; }
+  86.5%, 100% { opacity: 0; }
+}
+@keyframes spark-orbit {
+  from { --spark-a: 0deg; }
+  to { --spark-a: 360deg; }
+}
+@keyframes spark-flicker {
+  0% { opacity: 1; }
+  41% { opacity: 0.55; }
+  44% { opacity: 1; }
+  71% { opacity: 0.7; }
+  73% { opacity: 1; }
+}
+@keyframes bolt-strike {
+  0%, 70% { opacity: 0; }
+  71% { opacity: 0.95; }
+  72.5% { opacity: 0.15; }
+  74% { opacity: 0.85; }
+  78% { opacity: 0.3; }
+  82%, 100% { opacity: 0; }
+}
+@keyframes spark-rise {
+  0% { opacity: 0; transform: translate(0, 0) scale(0.6); }
+  12% { opacity: 1; }
+  70% { opacity: 0.5; }
+  100% { opacity: 0; transform: translate(var(--dx, 10px), -70px) scale(0.3); }
+}
+
+/* Reduced motion: everything above renders static */
+@media (prefers-reduced-motion: reduce) {
+  .gold-card::before,
+  .holo-card::before,
+  .spark-edge::after,
+  .btn-bolt::before,
+  .hero-bolt,
+  .hero-spark {
+    animation: none !important;
+  }
+}

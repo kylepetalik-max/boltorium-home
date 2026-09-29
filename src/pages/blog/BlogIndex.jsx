@@ -7,7 +7,7 @@ export default function BlogIndex() {
     <MarketingShell title="Blog — BOLTORIUM">
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
         <p className="hud-label text-champagne">Blog</p>
-        <h1 className="headline mt-2 text-4xl sm:text-5xl">Field notes</h1>
+        <h1 className="headline graffiti-head mt-2 text-4xl sm:text-5xl"><span className="graffiti-ink">Field notes</span></h1>
         <p className="mt-4 text-bone/70">
           Short, literal posts on ride-to-earn, EV micromobility, Solana honesty, and Striker.
           No fake traction metrics.

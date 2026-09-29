@@ -18,7 +18,7 @@ export default function Press() {
     <MarketingShell title="Press & listings — BOLTORIUM">
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
         <p className="hud-label text-champagne">For press &amp; listings</p>
-        <h1 className="headline mt-2 text-4xl sm:text-5xl">Outreach checklist</h1>
+        <h1 className="headline graffiti-head mt-2 text-4xl sm:text-5xl"><span className="graffiti-ink">Outreach checklist</span></h1>
         <p className="mt-4 text-bone/70">
           We do not buy backlinks. This page is a human checklist for relevant, non-spam outreach.
           Label Boltorium honestly: earn = <strong className="text-holo">RTL</strong>, market ={' '}
@@ -45,7 +45,7 @@ export default function Press() {
           </p>
         </div>
 
-        <h2 className="headline mt-10 text-2xl text-bone">Suggested site categories</h2>
+        <h2 className="headline graffiti-head mt-10 text-2xl text-bone"><span className="graffiti-ink">Suggested site categories</span></h2>
         <p className="mt-2 text-sm text-bone/60">
           Pitch only where the fit is real. Prefer editorial mentions over directory spam.
         </p>
