@@ -5,14 +5,27 @@ import { DISCORD_LABEL, DISCORD_URL, PRESS_EMAIL, X_URL } from '../../lib/commun
 
 export default function SiteFooter() {
   return (
-    <footer className="border-t border-white/10 bg-void">
+    <footer className="border-t border-bolt/20 bg-void">
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-start md:justify-between">
         <div>
-          <img
-            src={asset('brand/boltorium-graffiti-v1.png')}
-            alt="BOLTORIUM"
-            className="h-10 w-auto max-w-[180px] object-contain"
-          />
+          <div className="flex items-center gap-3">
+            <img
+              src={asset('brand/boltorium-badge-200.webp')}
+              alt="BOLTORIUM winged gold gear badge"
+              width="200"
+              height="172"
+              loading="lazy"
+              className="brand-glow h-14 w-auto object-contain"
+            />
+            <img
+              src={asset('brand/boltorium-wordmark-drip-320.webp')}
+              alt="BOLTORIUM"
+              width="320"
+              height="127"
+              loading="lazy"
+              className="h-10 w-auto object-contain"
+            />
+          </div>
           <p className="mt-3 max-w-sm text-sm text-bone/50">
             GPS-verified ride-to-earn. Earn RTL via the app · market Boltz (BTR) via Jupiter DTF. RTL mainnet on boltorium.co — not Jupiter. Free Enter App.
           </p>
@@ -30,15 +43,15 @@ export default function SiteFooter() {
             </ul>
           </div>
           <div>
-            <p className="hud-label mb-2 text-cyan">Community</p>
+            <p className="hud-label mb-2 text-champagne">Community</p>
             <ul className="space-y-1.5 text-bone/60">
               <li>
-                <a href={X_URL} className="hover:text-cyan" target="_blank" rel="noreferrer">
+                <a href={X_URL} className="hover:text-champagne" target="_blank" rel="noreferrer">
                   X / @boltoriumrtl
                 </a>
               </li>
               <li>
-                <a href={DISCORD_URL} className="hover:text-cyan">
+                <a href={DISCORD_URL} className="hover:text-champagne">
                   {DISCORD_LABEL}
                 </a>
               </li>

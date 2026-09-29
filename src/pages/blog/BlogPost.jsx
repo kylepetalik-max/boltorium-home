@@ -13,11 +13,11 @@ export default function BlogPost() {
   return (
     <MarketingShell title={`${post.title} — BOLTORIUM`}>
       <article className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
-        <Link to="/blog" className="font-display text-xs font-bold uppercase tracking-wider text-cyan hover:text-bolt">
+        <Link to="/blog" className="font-display text-xs font-bold uppercase tracking-wider text-champagne hover:text-bolt">
           ← Blog
         </Link>
         <p className="hud-label mt-6 text-bolt">{post.date}</p>
-        <h1 className="headline mt-2 text-3xl sm:text-4xl">{post.title}</h1>
+        <h1 className="headline graffiti-head mt-2 text-3xl sm:text-4xl"><span className="graffiti-ink">{post.title}</span></h1>
         <p className="mt-3 text-bone/55">{post.blurb}</p>
         <div className="mt-8 space-y-4 text-sm leading-relaxed text-bone/75 sm:text-base">
           {post.body.map((para) => (
@@ -37,7 +37,7 @@ export default function BlogPost() {
         </div>
         {others.length > 0 && (
           <div className="mt-14 border-t border-white/10 pt-8">
-            <p className="hud-label text-cyan">More posts</p>
+            <p className="hud-label text-champagne">More posts</p>
             <ul className="mt-4 space-y-2">
               {others.map((o) => (
                 <li key={o.slug}>

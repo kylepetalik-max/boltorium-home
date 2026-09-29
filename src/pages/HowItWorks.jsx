@@ -48,8 +48,8 @@ export default function HowItWorks() {
   return (
     <MarketingShell title="How it works — BOLTORIUM">
       <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6">
-        <p className="hud-label text-cyan">How it works</p>
-        <h1 className="headline mt-2 text-4xl sm:text-5xl">Get started</h1>
+        <p className="hud-label text-champagne">How it works</p>
+        <h1 className="headline graffiti-head mt-2 text-4xl sm:text-5xl"><span className="graffiti-ink">Get started</span></h1>
         <p className="mt-4 text-bone/70">
           Join → Ride → Earn RTL in the app. Free Enter App at boltorium.co. Market token is Boltz
           (BTR) via Jupiter DTF (BTR only). RTL mainnet via boltorium.co — not Jupiter. See Tokens.
@@ -57,15 +57,15 @@ export default function HowItWorks() {
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
           {GET_STARTED.map((s) => (
-            <div key={s.n} className="rounded-2xl border border-cyan/30 bg-void/80 p-5">
-              <p className="font-mono text-xs text-cyan">{s.n}</p>
+            <div key={s.n} className="rounded-2xl border border-champagne/30 bg-void/80 p-5">
+              <p className="font-mono text-xs text-champagne">{s.n}</p>
               <h2 className="headline mt-2 text-xl text-bolt">{s.t}</h2>
               <p className="mt-2 text-sm text-bone/65">{s.d}</p>
             </div>
           ))}
         </div>
 
-        <h2 className="headline mt-14 text-2xl sm:text-3xl">Under the hood</h2>
+        <h2 className="headline graffiti-head mt-14 text-2xl sm:text-3xl"><span className="graffiti-ink">Under the hood</span></h2>
         <div className="mt-6 space-y-6">
           {DETAIL.map((s) => (
             <article key={s.t} className="cv-card p-5 sm:p-6">
