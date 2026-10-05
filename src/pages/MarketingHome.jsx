@@ -251,7 +251,7 @@ export default function MarketingHome() {
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <div className="overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
-            src={asset('banners/banner-jupiter-launch-1500x500.png')}
+            src={asset('banners/banner-meteora-dbc-1500x500.png')}
             alt="Meteora DBC soft TGE teaser"
             className="w-full border-b border-white/10 object-cover"
           />

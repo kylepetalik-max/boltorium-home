@@ -52,7 +52,7 @@ export default function Roadmap() {
         </p>
 
         <img
-          src={asset('banners/banner-jupiter-launch-1500x500.png')}
+          src={asset('banners/banner-meteora-dbc-1500x500.png')}
           alt="Meteora DBC Oct 8 soft TGE teaser"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
