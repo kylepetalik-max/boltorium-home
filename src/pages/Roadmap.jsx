@@ -13,14 +13,14 @@ const PHASES = [
   {
     status: 'OCT 8',
     color: 'text-cyan',
-    t: 'Jupiter DTF soft TGE teaser (Mode B)',
-    d: 'Target Thu Oct 8, 2026 PT: Boltz / BTR soft TGE via Jupiter DTF (BTR only — RTL does not launch on Jupiter). Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
+    t: 'Meteora DBC soft TGE teaser (Mode B)',
+    d: 'Target Thu Oct 8, 2026 PT: Boltz / BTR soft TGE via Meteora DBC (BTR only — RTL is not on the Meteora sale curve). Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
   },
   {
     status: 'NEXT',
     color: 'text-solana',
     t: 'RTL mainnet via boltorium.co + native wraps',
-    d: 'RTL mainnet ships via boltorium.co / the app only — not Jupiter. Migrates per published earn policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public BTR trading after ≥250k BTR purchased (educational gate).',
+    d: 'RTL mainnet ships via boltorium.co / the app only — not via Meteora DBC. Migrates per published earn policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public BTR trading after DBC graduation (threshold TBD).',
   },
 ];
 
@@ -33,10 +33,10 @@ const LIVE = [
 ];
 
 const PLANNED = [
-  'Jupiter DTF soft TGE for Boltz / BTR only (Oct 8 Mode B target)',
-  'RTL mainnet via boltorium.co / the app (not Jupiter)',
+  'Meteora DBC soft TGE for Boltz / BTR only (Oct 8 Mode B target)',
+  'RTL mainnet via boltorium.co / the app (not via Meteora DBC)',
   'Native store wraps',
-  'Public after ≥250k BTR purchased',
+  'Public after DBC graduation (threshold TBD)',
 ];
 
 export default function Roadmap() {
@@ -46,14 +46,14 @@ export default function Roadmap() {
         <p className="hud-label text-solana">Roadmap / Launch</p>
         <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
         <p className="mt-4 text-bone/70">
-          Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via Jupiter DTF
+          Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via Meteora DBC
           (BTR only). Soft TGE target <strong className="text-bone">Thu Oct 8, 2026 PT Mode B</strong>{' '}
           — teaser only until live. No fabricated rider stats, prices, or buy buttons.
         </p>
 
         <img
           src={asset('banners/banner-jupiter-launch-1500x500.png')}
-          alt="Jupiter DTF Oct 8 soft TGE teaser"
+          alt="Meteora DBC Oct 8 soft TGE teaser"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
 
@@ -88,7 +88,7 @@ export default function Roadmap() {
         <div className="mt-10 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
           <p className="headline text-bolt">Interest CTA</p>
           <p className="mt-2 text-sm text-bone/70">
-            Free Enter App to ride and earn RTL. Oct 8 Jupiter DTF (BTR) alerts land on X and this roadmap —
+            Free Enter App to ride and earn RTL. Oct 8 Meteora DBC (BTR) alerts land on X and this roadmap —
             not with inflated stats or a fake buy button.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">

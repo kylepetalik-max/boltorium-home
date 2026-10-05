@@ -8,7 +8,7 @@ const PIECES = [
   { t: 'Garage + Tune', d: 'Fleet classes (EUC, e-moto, scooter, air). Throttle, regen, lights — spend RTL.' },
   { t: 'Shop', d: 'Official + P2P marketplace. Earn loop uses RTL; market coin is Boltz / BTR.' },
   { t: 'Rank & Missions', d: 'Crew leaderboard, weekly missions, airdrop pings.' },
-  { t: 'Wallet', d: 'RTL earn balance (app / boltorium.co mainnet path), demo pubkey, ride activity. Boltz / BTR market rails via Jupiter DTF when live — BTR only.' },
+  { t: 'Wallet', d: 'RTL earn balance (app / boltorium.co mainnet path), demo pubkey, ride activity. Boltz / BTR market rails via Meteora DBC when live — BTR only.' },
   { t: 'Striker', d: 'Vendored @boltorium/striker — verify before RTL credit.' },
 ];
 
@@ -22,7 +22,7 @@ export default function Ecosystem() {
             <h1 className="headline mt-2 text-4xl sm:text-5xl">The loop riders live in</h1>
             <p className="mt-4 max-w-xl text-bone/70">
               Ride → verify → earn <span className="text-cyan">RTL</span>. Market token is{' '}
-              <span className="text-bolt">Boltz (BTR)</span> via Jupiter DTF (BTR only; RTL via boltorium.co). Free Enter App — graffiti
+              <span className="text-bolt">Boltz (BTR)</span> via Meteora DBC (BTR only; RTL via boltorium.co). Free Enter App — graffiti
               energy, no Whop paywall.
             </p>
           </div>
@@ -40,8 +40,8 @@ export default function Ecosystem() {
               <p className="hud-label text-bolt">MARKET</p>
               <p className="headline mt-1 text-xl text-bolt">Boltz / BTR</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold coin. Soft TGE via Jupiter DTF (BTR only) — Thu Oct 8, 2026 PT Mode B teaser. RTL does not launch on Jupiter.
-                ≥250k BTR purchased unlocks public (educational). Riding does not mint BTR.
+                Tradeable gold coin. Soft TGE via Meteora DBC (BTR only) — Thu Oct 8, 2026 PT Mode B teaser. RTL is not on the Meteora sale curve.
+                DBC graduation unlocks public trading (threshold TBD). Riding does not mint BTR.
               </p>
             </div>
             <div>
