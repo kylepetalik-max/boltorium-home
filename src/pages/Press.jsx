@@ -65,8 +65,8 @@ export default function Press() {
           <p className="headline text-base text-bone">One-liner (honest)</p>
           <p className="mt-2">
             Ride on Boltorium → earn RTL in the app → the market token is Boltz (BTR) on Solana via
-            Meteora DBC (BTR only). RTL mainnet via boltorium.co — not via Meteora DBC. Soft TGE target Thu
-            Oct 8, 2026 PT Mode B. Free Enter App — no Whop, no fake buy button yet.
+            Meteora DBC (BTR only). RTL mainnet via boltorium.co — not via Meteora DBC. Oct 8: dual-token +
+            Meteora DBC intent — soft TGE planned, not live. Free Enter App — no Whop, no fake buy button yet.
           </p>
           <Link to="/tokens" className="mt-3 inline-flex font-display text-sm font-bold uppercase tracking-wider text-bolt hover:text-cyan">
             Dual-token page →

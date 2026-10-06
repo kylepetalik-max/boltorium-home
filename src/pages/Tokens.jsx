@@ -24,9 +24,9 @@ export default function Tokens() {
         <p className="mt-4 max-w-2xl text-bone/70">
           Ride on Boltorium → earn <strong className="text-cyan">RTL</strong> in the app → the market
           token is <strong className="text-bolt">Boltz (BTR)</strong> on Solana via{' '}
-          <strong className="text-bone">Meteora DBC</strong> (BTR only). Soft TGE target{' '}
-          <strong className="text-bone">Thu Oct 8, 2026 PT · Mode B</strong> — teaser + interest only
-          until sale rails are live. RTL mainnet ships via boltorium.co — not via Meteora DBC.
+          <strong className="text-bone">Meteora DBC</strong> (BTR only). Oct 8:{' '}
+          <strong className="text-bone">dual-token + Meteora DBC intent</strong> — planned soft TGE, not a live sale.
+          Teaser + interest only until sale rails are live. RTL mainnet ships via boltorium.co — not via Meteora DBC.
         </p>
 
         <img
@@ -45,7 +45,7 @@ export default function Tokens() {
             <p className="hud-label text-bolt">MARKET · TRADEABLE</p>
             <h2 className="headline mt-2 text-2xl text-bolt">Boltz / BTR</h2>
             <p className="mt-3 text-sm text-bone/70">
-              Gold market coin. Soft TGE via <strong className="text-bone">Meteora DBC</strong> (Studio /
+              Gold market coin. Planned soft TGE via <strong className="text-bone">Meteora DBC</strong> (Studio /
               secondary later) — <strong className="text-bone">BTR only</strong>. Public trading unlocks
               after DBC graduation (threshold TBD) — educational framing, not a price claim. Riding does{' '}
               <em>not</em> mint BTR.
@@ -70,16 +70,16 @@ export default function Tokens() {
         <section className="mt-10 overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
             src={asset('banners/banner-meteora-dbc-1500x500.png')}
-            alt="Meteora DBC soft TGE teaser"
+            alt="Meteora DBC intent teaser"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
-            <p className="hud-label text-solana">Oct 8 · Mode B soft TGE</p>
-            <h2 className="headline mt-2 text-2xl sm:text-3xl">Meteora DBC — teaser, not a buy button</h2>
+            <p className="hud-label text-solana">Oct 8 · Meteora DBC intent</p>
+            <h2 className="headline mt-2 text-2xl sm:text-3xl">Meteora DBC — intent announce, not a buy button</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
-              Target: <strong className="text-bone">Thursday Oct 8, 2026 PT</strong>. Path: Meteora DBC
-              sale first — <strong className="text-bone">Boltz / BTR only</strong>. RTL is not on the Meteora sale curve. No mint address, price, or live purchase CTA on this portal until rails are
-              actually live. Join the free app and watch for BTR launch alerts.
+              <strong className="text-bone">Thursday Oct 8, 2026 PT</strong>: announce dual-token + Meteora DBC intent.
+              Soft TGE for <strong className="text-bone">Boltz / BTR only</strong> is planned — not live yet. RTL is not on the Meteora sale curve. No mint address, price, or live purchase CTA on this portal until rails are
+              actually live. Join the free app and watch for BTR intent alerts.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">

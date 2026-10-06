@@ -40,7 +40,7 @@ export default function Ecosystem() {
               <p className="hud-label text-bolt">MARKET</p>
               <p className="headline mt-1 text-xl text-bolt">Boltz / BTR</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold coin. Soft TGE via Meteora DBC (BTR only) — Thu Oct 8, 2026 PT Mode B teaser. RTL is not on the Meteora sale curve.
+                Tradeable gold coin. Planned soft TGE via Meteora DBC (BTR only). Oct 8: dual-token + DBC intent — not a live sale. RTL is not on the Meteora sale curve.
                 DBC graduation unlocks public trading (threshold TBD). Riding does not mint BTR.
               </p>
             </div>
