@@ -21,7 +21,7 @@ const GET_STARTED = [
   {
     n: '04',
     t: 'Market Boltz',
-    d: 'Boltz (BTR) is the tradeable market coin. Soft TGE via Jupiter DTF (BTR only) — target Thu Oct 8, 2026 PT Mode B. RTL mainnet via boltorium.co / the app, not Jupiter. Teaser + interest only until live — no buy button here yet.',
+    d: 'Boltz (BTR) is the tradeable market coin. Planned soft TGE via Meteora DBC (BTR only). Oct 8 announces dual-token + DBC intent — not a live sale. RTL mainnet via boltorium.co / the app, not via Meteora DBC. Teaser + interest only until live — no buy button here yet.',
   },
 ];
 
@@ -36,7 +36,7 @@ const DETAIL = [
   },
   {
     t: 'RTL = earn · Boltz = market',
-    d: 'Eligible sessions credit RTL through the app. Boltz / BTR is the separate market token (Jupiter DTF — BTR only). RTL mainnet via boltorium.co, not Jupiter. Option B: two assets, no auto-convert. Tokens never sold via Stripe or Whop.',
+    d: 'Eligible sessions credit RTL through the app. Boltz / BTR is the separate market token (Meteora DBC — BTR only). RTL mainnet via boltorium.co, not via Meteora DBC. Option B: two assets, no auto-convert. Tokens never sold via Stripe or Whop.',
   },
   {
     t: 'Progress the loop',
@@ -52,7 +52,7 @@ export default function HowItWorks() {
         <h1 className="headline mt-2 text-4xl sm:text-5xl">Get started</h1>
         <p className="mt-4 text-bone/70">
           Join → Ride → Earn RTL in the app. Free Enter App at boltorium.co. Market token is Boltz
-          (BTR) via Jupiter DTF (BTR only). RTL mainnet via boltorium.co — not Jupiter. See Tokens.
+          (BTR) via Meteora DBC (BTR only). RTL mainnet via boltorium.co — not via Meteora DBC. See Tokens.
         </p>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2">

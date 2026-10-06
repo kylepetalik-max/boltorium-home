@@ -24,7 +24,7 @@ const JOURNEY = [
   {
     n: '04',
     t: 'Market Boltz',
-    d: 'Boltz (BTR) is the tradeable market coin — Jupiter DTF soft TGE (BTR only) target Thu Oct 8, 2026 PT. Teaser only until live. RTL mainnet via boltorium.co, not Jupiter.',
+    d: 'Boltz (BTR) is the tradeable market coin — Meteora DBC intent for BTR only. Oct 8 announces the dual-token story; soft TGE is planned, not live yet. RTL mainnet via boltorium.co, not via Meteora DBC.',
   },
 ];
 
@@ -44,10 +44,10 @@ const LIVE_NOW = [
 ];
 
 const PLANNED = [
-  'Jupiter DTF soft TGE for Boltz / BTR only — target Thu Oct 8, 2026 PT Mode B',
-  'RTL mainnet via boltorium.co / the app after published earn policy (not Jupiter)',
+  'Planned Meteora DBC soft TGE for Boltz / BTR only — after Mode B unlock / Kyle yes',
+  'RTL mainnet via boltorium.co / the app after published earn policy (not via Meteora DBC)',
   'Native store wraps (iOS / Android)',
-  'Public trading after ≥250,000 BTR purchased (educational gate)',
+  'DBC graduation / soft-discovery threshold TBD (Kyle lock)',
 ];
 
 export default function MarketingHome() {
@@ -68,10 +68,10 @@ export default function MarketingHome() {
           <p className="mt-5 max-w-2xl text-base text-bone/75 sm:text-lg">
             Ride on Boltorium → earn <span className="text-cyan font-semibold">RTL</span> in the app →
             the market token is <span className="text-bolt font-semibold">Boltz (BTR)</span> on Solana
-            via Jupiter DTF. RTL mainnet ships via boltorium.co — not Jupiter.
+            via Meteora DBC. RTL mainnet ships via boltorium.co — not via Meteora DBC.
           </p>
           <p className="mt-2 max-w-xl text-sm text-bone/55">
-            Free Enter App. BTR soft TGE teaser Thu Oct 8, 2026 PT Mode B (Jupiter DTF) — no fake buy button.
+            Free Enter App. Oct 8: dual-token + Meteora DBC intent (BTR) — planned soft TGE, not a live sale. No fake buy button.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
@@ -91,7 +91,7 @@ export default function MarketingHome() {
             </Link>
           </div>
           <p className="mt-4 font-mono text-[10px] tracking-[0.2em] text-bone/40">
-            FREE ENTER APP · EARN RTL (APP) · MARKET BTR (JUPITER DTF) · OCT 8 TEASER
+            FREE ENTER APP · EARN RTL (APP) · MARKET BTR (METEORA DBC) · OCT 8 INTENT
           </p>
         </div>
       </section>
@@ -120,7 +120,7 @@ export default function MarketingHome() {
               <p className="hud-label text-bolt">MARKET</p>
               <p className="headline mt-2 text-xl text-bolt">Boltz / BTR</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold market coin. Soft TGE via Jupiter DTF (BTR only) — target Thu Oct 8, 2026 PT.
+                Tradeable gold market coin. Planned soft TGE via Meteora DBC (BTR only). Oct 8 announces dual-token + DBC intent.
                 No live buy, mint address, or price here yet.
               </p>
             </div>
@@ -145,7 +145,7 @@ export default function MarketingHome() {
         <p className="mt-4 max-w-2xl text-bone/70">
           Boltorium is a ride-to-earn app for EUCs, e-motos, boards, and scooters. You ride, Striker
           verifies the session, and eligible rides earn RTL through the app. Boltz (BTR) is the
-          separate market token launching via Jupiter DTF — BTR only; RTL does not launch on Jupiter.
+          separate market token launching via Meteora DBC — BTR only; RTL is not on the Meteora sale curve.
           RTL mainnet via boltorium.co. Free Enter App — no Whop, no paid membership wall.
         </p>
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
@@ -200,7 +200,7 @@ export default function MarketingHome() {
         <h2 className="headline mt-2 text-3xl sm:text-4xl">What&apos;s LIVE vs PLANNED</h2>
         <p className="mt-3 max-w-2xl text-bone/70">
           Qualitative proof only. No invented user counts, TVL, mint addresses, or buy buttons.
-          Oct 8 is a <span className="text-bolt">BTR</span> soft TGE teaser until Jupiter DTF rails are live. RTL stays on boltorium.co.
+          Oct 8 announces the dual-token story + <span className="text-bolt">BTR</span> Meteora DBC intent — soft TGE planned, not live. RTL stays on boltorium.co.
         </p>
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <div className="rounded-2xl border border-bolt/40 bg-bolt/5 p-6">
@@ -247,22 +247,22 @@ export default function MarketingHome() {
         </div>
       </section>
 
-      {/* JUPITER TEASER */}
+      {/* METEORA DBC TEASER */}
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <div className="overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
-            src={asset('banners/banner-jupiter-launch-1500x500.png')}
-            alt="Jupiter DTF soft TGE teaser"
+            src={asset('banners/banner-meteora-dbc-1500x500.png')}
+            alt="Meteora DBC intent teaser"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
-            <p className="hud-label text-solana">Jupiter DTF · Oct 8 Mode B</p>
-            <h2 className="headline mt-2 text-2xl sm:text-3xl">Soft TGE teaser — not a live sale yet.</h2>
+            <p className="hud-label text-solana">Meteora DBC · Oct 8 intent</p>
+            <h2 className="headline mt-2 text-2xl sm:text-3xl">Dual-token + Meteora DBC intent — not a live sale.</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
-              Boltz (BTR) soft TGE target: Thursday Oct 8, 2026 PT via Jupiter DTF (Studio / secondary
-              later). Jupiter DTF is for BTR only — RTL does not launch on Jupiter. RTL mainnet ships
+              Oct 8: announce dual-token + Meteora DBC intent for Boltz / BTR (Studio / secondary
+              later). Soft TGE is planned — not launching Oct 8. Meteora DBC is for BTR only — RTL is not on the Meteora sale curve. RTL mainnet ships
               via boltorium.co / the app. No buy button, mint address, or price here until rails are live.
-              Tokens never sold via Stripe or Whop. Watch for launch alerts — free Enter App meanwhile.
+              Tokens never sold via Stripe or Whop. Watch for intent alerts — free Enter App meanwhile.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <Link to="/tokens" className="inline-flex font-display text-sm font-bold uppercase tracking-wider text-solana hover:text-bolt">
@@ -306,7 +306,7 @@ export default function MarketingHome() {
           <p className="hud-label text-cyan">Community</p>
           <h2 className="headline mt-2 text-3xl">Ride with the crew</h2>
           <p className="mx-auto mt-3 max-w-lg text-bone/65">
-            Follow on X for Oct 8 launch alerts. Discord invite is not public yet — request access by email.
+            Follow on X for Oct 8 dual-token + DBC intent alerts. Discord invite is not public yet — request access by email.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <a
