@@ -11,10 +11,10 @@ const PHASES = [
     d: 'www.boltorium.co explains dual-token (earn RTL · market Boltz). Enter App opens the live Emergent demo at boltorium.co — free, no Whop. Not the app source.',
   },
   {
-    status: 'OCT 8',
+    status: 'NOV 19',
     color: 'text-cyan',
-    t: 'Jupiter DTF soft TGE teaser (Mode B)',
-    d: 'Target Thu Oct 8, 2026 PT: Boltz / BTR soft TGE via Jupiter DTF (BTR only — RTL does not launch on Jupiter). Portal shows teaser + interest CTA only — no live buy button, mint address, or price until rails are live. Studio / secondary later.',
+    t: 'Meteora launchpad whitelist presale',
+    d: 'Target Thu Nov 19, 2026 PT: Boltz / BTR whitelist presale via the Meteora launchpad (BTR only — RTL does not launch on Meteora). Portal shows details + interest CTA only — no live buy button, mint address, or price until rails are live.',
   },
   {
     status: 'NEXT',
@@ -33,7 +33,7 @@ const LIVE = [
 ];
 
 const PLANNED = [
-  'Jupiter DTF soft TGE for Boltz / BTR only (Oct 8 Mode B target)',
+  'Meteora launchpad whitelist presale for Boltz / BTR only (Nov 19 target)',
   'RTL mainnet via boltorium.co / the app (not Jupiter)',
   'Native store wraps',
   'Public after ≥250k BTR purchased',
@@ -46,14 +46,14 @@ export default function Roadmap() {
         <p className="hud-label text-solana">Roadmap / Launch</p>
         <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
         <p className="mt-4 text-bone/70">
-          Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via Jupiter DTF
-          (BTR only). Soft TGE target <strong className="text-bone">Thu Oct 8, 2026 PT Mode B</strong>{' '}
-          — teaser only until live. No fabricated rider stats, prices, or buy buttons.
+          Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via the Meteora launchpad
+          (BTR only). Whitelist presale target <strong className="text-bone">Thu Nov 19, 2026 PT</strong>{' '}
+          — details only until live. No fabricated rider stats, prices, or buy buttons.
         </p>
 
         <img
           src={asset('banners/banner-jupiter-launch-1500x500.png')}
-          alt="Jupiter DTF Oct 8 soft TGE teaser"
+          alt="Meteora Nov 19 whitelist presale teaser"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
 
@@ -88,7 +88,7 @@ export default function Roadmap() {
         <div className="mt-10 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
           <p className="headline text-bolt">Interest CTA</p>
           <p className="mt-2 text-sm text-bone/70">
-            Free Enter App to ride and earn RTL. Oct 8 Jupiter DTF (BTR) alerts land on X and this roadmap —
+            Free Enter App to ride and earn RTL. Nov 19 Meteora (BTR) alerts land on X and this roadmap —
             not with inflated stats or a fake buy button.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">

@@ -9,7 +9,7 @@ const HONESTY = [
   'Riding earns RTL — it does not mint Boltz / BTR.',
   'Phase 1 RTL may be in-app / demo credits until on-chain policy ships.',
   'RTL mainnet via boltorium.co / the app only — not Jupiter.',
-  'Jupiter DTF soft TGE is for Boltz / BTR only.',
+  'Meteora launchpad whitelist presale is for Boltz / BTR only.',
   'Option B: two assets, no auto-convert between Boltz and RTL.',
 ];
 
@@ -24,8 +24,8 @@ export default function Tokens() {
         <p className="mt-4 max-w-2xl text-bone/70">
           Ride on Boltorium → earn <strong className="text-cyan">RTL</strong> in the app → the market
           token is <strong className="text-bolt">Boltz (BTR)</strong> on Solana via{' '}
-          <strong className="text-bone">Jupiter DTF</strong> (BTR only). Soft TGE target{' '}
-          <strong className="text-bone">Thu Oct 8, 2026 PT · Mode B</strong> — teaser + interest only
+          <strong className="text-bone">Meteora launchpad</strong> (BTR only). Whitelist presale target{' '}
+          <strong className="text-bone">Thu Nov 19, 2026 PT</strong> — details + interest only
           until sale rails are live. RTL mainnet ships via boltorium.co — not Jupiter.
         </p>
 
@@ -45,8 +45,7 @@ export default function Tokens() {
             <p className="hud-label text-bolt">MARKET · TRADEABLE</p>
             <h2 className="headline mt-2 text-2xl text-bolt">Boltz / BTR</h2>
             <p className="mt-3 text-sm text-bone/70">
-              Gold market coin. Soft TGE via <strong className="text-bone">Jupiter DTF</strong> (Studio /
-              secondary later) — <strong className="text-bone">BTR only</strong>. Public trading unlocks
+              Gold market coin. Whitelist presale via <strong className="text-bone">Meteora launchpad</strong> — <strong className="text-bone">BTR only</strong>. Public trading unlocks
               after ≥250,000 BTR purchased — educational gate, not a price claim. Riding does{' '}
               <em>not</em> mint BTR.
             </p>
@@ -70,16 +69,16 @@ export default function Tokens() {
         <section className="mt-10 overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
             src={asset('banners/banner-jupiter-launch-1500x500.png')}
-            alt="Jupiter DTF soft TGE teaser"
+            alt="Boltz whitelist presale teaser"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
-            <p className="hud-label text-solana">Oct 8 · Mode B soft TGE</p>
-            <h2 className="headline mt-2 text-2xl sm:text-3xl">Jupiter DTF — teaser, not a buy button</h2>
+            <p className="hud-label text-solana">Nov 19 · whitelist presale</p>
+            <h2 className="headline mt-2 text-2xl sm:text-3xl">Meteora launchpad — not a buy button yet</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
-              Target: <strong className="text-bone">Thursday Oct 8, 2026 PT</strong>. Path: Jupiter DTF
-              sale first — <strong className="text-bone">Boltz / BTR only</strong>. RTL does not launch
-              on Jupiter. No mint address, price, or live purchase CTA on this portal until rails are
+              Target: <strong className="text-bone">Thursday Nov 19, 2026 PT</strong>. Path: Meteora launchpad
+              whitelist presale — <strong className="text-bone">Boltz / BTR only</strong>. RTL does not launch
+              on Meteora. No mint address, price, or live purchase CTA on this portal until rails are
               actually live. Join the free app and watch for BTR launch alerts.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -112,7 +111,7 @@ export default function Tokens() {
           <p className="headline text-base text-bone">One-liner</p>
           <p className="mt-2">
             Ride on Boltorium → earn <span className="text-cyan">RTL</span> in the app → the market
-            token is <span className="text-bolt">Boltz (BTR)</span> on Solana via Jupiter DTF. RTL
+            token is <span className="text-bolt">Boltz (BTR)</span> on Solana via the Meteora launchpad. RTL
             mainnet via boltorium.co — not Jupiter.
           </p>
         </div>
