@@ -6,9 +6,9 @@ import { APP_URL } from '../lib/appUrl.js';
 const PIECES = [
   { t: 'Ride HUD', d: 'Live speed, distance, drops on a neon map. Safety gate before ignition.' },
   { t: 'Garage + Tune', d: 'Fleet classes (EUC, e-moto, scooter, air). Throttle, regen, lights — spend RTL.' },
-  { t: 'Shop', d: 'Official + P2P marketplace. Earn loop uses RTL; market coin is Boltz / BTR.' },
+  { t: 'Shop', d: 'Official + P2P marketplace. Earn loop uses RTL; market coin is Boltz / BOLTZ.' },
   { t: 'Rank & Missions', d: 'Crew leaderboard, weekly missions, airdrop pings.' },
-  { t: 'Wallet', d: 'RTL earn balance (app / boltorium.co mainnet path), demo pubkey, ride activity. Boltz / BTR market rails via the Meteora launchpad when live — BTR only.' },
+  { t: 'Wallet', d: 'RTL earn balance (app / boltorium.co mainnet path), demo pubkey, ride activity. Boltz / BOLTZ market rails via the Meteora launchpad when live — BOLTZ only.' },
   { t: 'Striker', d: 'Vendored @boltorium/striker — verify before RTL credit.' },
 ];
 
@@ -22,7 +22,7 @@ export default function Ecosystem() {
             <h1 className="headline mt-2 text-4xl sm:text-5xl">The loop riders live in</h1>
             <p className="mt-4 max-w-xl text-bone/70">
               Ride → verify → earn <span className="text-cyan">RTL</span>. Market token is{' '}
-              <span className="text-bolt">Boltz (BTR)</span> via the Meteora launchpad (BTR only; RTL via boltorium.co). Free Enter App — graffiti
+              <span className="text-bolt">Boltz (BOLTZ)</span> via the Meteora launchpad (BOLTZ only; RTL via boltorium.co). Free Enter App — graffiti
               energy, no Whop paywall.
             </p>
           </div>
@@ -38,10 +38,10 @@ export default function Ecosystem() {
           <div className="grid gap-4 p-6 sm:grid-cols-2 sm:p-8">
             <div>
               <p className="hud-label text-bolt">MARKET</p>
-              <p className="headline mt-1 text-xl text-bolt">Boltz / BTR</p>
+              <p className="headline mt-1 text-xl text-bolt">Boltz / BOLTZ</p>
               <p className="mt-2 text-sm text-bone/65">
-                Tradeable gold coin. Whitelist presale via the Meteora launchpad (BTR only) — Thu Nov 19, 2026 PT target. RTL does not launch on Meteora.
-                ≥250k BTR purchased unlocks public (educational). Riding does not mint BTR.
+                Tradeable gold coin. Whitelist presale via the Meteora launchpad (BOLTZ only) — Thu Nov 19, 2026 PT target. RTL does not launch on Meteora.
+                ≥250k BOLTZ purchased unlocks public (educational). Riding does not mint BOLTZ.
               </p>
             </div>
             <div>

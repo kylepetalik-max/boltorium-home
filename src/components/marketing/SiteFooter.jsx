@@ -14,7 +14,7 @@ export default function SiteFooter() {
             className="h-10 w-auto max-w-[180px] object-contain"
           />
           <p className="mt-3 max-w-sm text-sm text-bone/50">
-            GPS-verified ride-to-earn. Earn RTL via the app · market Boltz (BTR) via the Meteora launchpad. RTL mainnet on boltorium.co — not Jupiter. Free Enter App.
+            GPS-verified ride-to-earn. Earn RTL via the app · market Boltz (BOLTZ) via the Meteora launchpad. RTL mainnet on boltorium.co — not Jupiter. Free Enter App.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-4">

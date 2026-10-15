@@ -14,13 +14,13 @@ const PHASES = [
     status: 'NOV 19',
     color: 'text-cyan',
     t: 'Meteora launchpad whitelist presale',
-    d: 'Target Thu Nov 19, 2026 PT: Boltz / BTR whitelist presale via the Meteora launchpad (BTR only — RTL does not launch on Meteora). Portal shows details + interest CTA only — no live buy button, mint address, or price until rails are live.',
+    d: 'Target Thu Nov 19, 2026 PT: Boltz / BOLTZ whitelist presale via the Meteora launchpad (BOLTZ only — RTL does not launch on Meteora). Portal shows details + interest CTA only — no live buy button or mint address until rails are live. Planned tier prices are on the Tokens page.',
   },
   {
     status: 'NEXT',
     color: 'text-solana',
     t: 'RTL mainnet via boltorium.co + native wraps',
-    d: 'RTL mainnet ships via boltorium.co / the app only — not Jupiter. Migrates per published earn policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public BTR trading after ≥250k BTR purchased (educational gate).',
+    d: 'RTL mainnet ships via boltorium.co / the app only — not Jupiter. Migrates per published earn policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public BOLTZ trading after ≥250k BOLTZ purchased (educational gate).',
   },
 ];
 
@@ -33,10 +33,10 @@ const LIVE = [
 ];
 
 const PLANNED = [
-  'Meteora launchpad whitelist presale for Boltz / BTR only (Nov 19 target)',
+  'Meteora launchpad whitelist presale for Boltz / BOLTZ only (Nov 19 target)',
   'RTL mainnet via boltorium.co / the app (not Jupiter)',
   'Native store wraps',
-  'Public after ≥250k BTR purchased',
+  'Public after ≥250k BOLTZ purchased',
 ];
 
 export default function Roadmap() {
@@ -46,8 +46,8 @@ export default function Roadmap() {
         <p className="hud-label text-solana">Roadmap / Launch</p>
         <h1 className="headline mt-2 text-4xl sm:text-5xl">What&apos;s happening</h1>
         <p className="mt-4 text-bone/70">
-          Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BTR via the Meteora launchpad
-          (BTR only). Whitelist presale target <strong className="text-bone">Thu Nov 19, 2026 PT</strong>{' '}
+          Honest timeline. Earn = RTL via the app / boltorium.co. Market = Boltz / BOLTZ via the Meteora launchpad
+          (BOLTZ only). Whitelist presale target <strong className="text-bone">Thu Nov 19, 2026 PT</strong>{' '}
           — details only until live. No fabricated rider stats, prices, or buy buttons.
         </p>
 
@@ -88,7 +88,7 @@ export default function Roadmap() {
         <div className="mt-10 rounded-2xl border border-bolt/30 bg-bolt/5 p-5">
           <p className="headline text-bolt">Interest CTA</p>
           <p className="mt-2 text-sm text-bone/70">
-            Free Enter App to ride and earn RTL. Nov 19 Meteora (BTR) alerts land on X and this roadmap —
+            Free Enter App to ride and earn RTL. Nov 19 Meteora (BOLTZ) alerts land on X and this roadmap —
             not with inflated stats or a fake buy button.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
