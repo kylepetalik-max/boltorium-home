@@ -52,7 +52,7 @@ export default function Roadmap() {
         </p>
 
         <img
-          src={asset('banners/banner-meteora-presale-1500x500.png')}
+          src={asset('banners/banner-meteora-presale-1500x500.webp')}
           alt="BOLTZ whitelist presale — Nov 19 on the Meteora launchpad"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
