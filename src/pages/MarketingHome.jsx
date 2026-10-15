@@ -47,7 +47,7 @@ const PLANNED = [
   'Meteora launchpad whitelist presale for Boltz / BOLTZ only — target Thu Nov 19, 2026 PT',
   'RTL mainnet via boltorium.co / the app after published earn policy (not Jupiter)',
   'Native store wraps (iOS / Android)',
-  'Public trading after ≥250,000 BOLTZ purchased (educational gate)',
+  'Public trading via Alpha Vault → DAMM pool after the presale',
 ];
 
 export default function MarketingHome() {
@@ -251,8 +251,8 @@ export default function MarketingHome() {
       <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
         <div className="overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
-            src={asset('banners/banner-jupiter-launch-1500x500.png')}
-            alt="Boltz whitelist presale teaser"
+            src={asset('banners/banner-meteora-presale-1500x500.png')}
+            alt="BOLTZ whitelist presale — Nov 19 on the Meteora launchpad"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">

@@ -46,8 +46,7 @@ export default function Tokens() {
             <p className="hud-label text-bolt">MARKET · TRADEABLE</p>
             <h2 className="headline mt-2 text-2xl text-bolt">Boltz / BOLTZ</h2>
             <p className="mt-3 text-sm text-bone/70">
-              Gold market coin. Whitelist presale via <strong className="text-bone">Meteora launchpad</strong> — <strong className="text-bone">BOLTZ only</strong>. Public trading unlocks
-              after ≥250,000 BOLTZ purchased — educational gate, not a price claim. Riding does{' '}
+              Gold market coin. Whitelist presale via <strong className="text-bone">Meteora launchpad</strong> — <strong className="text-bone">BOLTZ only</strong>. Public trading follows the presale via Alpha Vault → DAMM pool. Riding does{' '}
               <em>not</em> mint BOLTZ.
             </p>
           </article>
@@ -131,7 +130,7 @@ export default function Tokens() {
           <h3 className="headline mt-8 text-xl text-bone">Whitelist presale tiers</h3>
           <p className="mt-2 max-w-2xl text-sm text-bone/70">
             1,500 whitelist spots compete first-come-first-served for 1,000 seats. Tiers auto-roll up
-            when a tier sells out. Launch path: Presale Vault → Alpha Vault → DAMM pool.
+            when a tier sells out. Full sell-out across all tiers: <strong className="text-bone">$99,500</strong> (planned terms — final vault configuration may differ). Launch path: Presale Vault → Alpha Vault → DAMM pool.
           </p>
           <div className="mt-4 overflow-hidden rounded-2xl border border-white/10">
             <table className="w-full text-sm">
@@ -181,8 +180,8 @@ export default function Tokens() {
 
         <section className="mt-10 overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
-            src={asset('banners/banner-jupiter-launch-1500x500.png')}
-            alt="Boltz whitelist presale teaser"
+            src={asset('banners/banner-meteora-presale-1500x500.png')}
+            alt="BOLTZ whitelist presale — Nov 19 on the Meteora launchpad"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">

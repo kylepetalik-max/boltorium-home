@@ -20,7 +20,7 @@ const PHASES = [
     status: 'NEXT',
     color: 'text-solana',
     t: 'RTL mainnet via boltorium.co + native wraps',
-    d: 'RTL mainnet ships via boltorium.co / the app only — not Jupiter. Migrates per published earn policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public BOLTZ trading after ≥250k BOLTZ purchased (educational gate).',
+    d: 'RTL mainnet ships via boltorium.co / the app only — not Jupiter. Migrates per published earn policy. Harden onboarding, ship iOS/Android Capacitor builds, open Discord when ready. Public BOLTZ trading follows the presale via Alpha Vault → DAMM pool.',
   },
 ];
 
@@ -36,7 +36,7 @@ const PLANNED = [
   'Meteora launchpad whitelist presale for Boltz / BOLTZ only (Nov 19 target)',
   'RTL mainnet via boltorium.co / the app (not Jupiter)',
   'Native store wraps',
-  'Public after ≥250k BOLTZ purchased',
+  'Public trading via Alpha Vault → DAMM pool after presale',
 ];
 
 export default function Roadmap() {
@@ -52,8 +52,8 @@ export default function Roadmap() {
         </p>
 
         <img
-          src={asset('banners/banner-jupiter-launch-1500x500.png')}
-          alt="Meteora Nov 19 whitelist presale teaser"
+          src={asset('banners/banner-meteora-presale-1500x500.png')}
+          alt="BOLTZ whitelist presale — Nov 19 on the Meteora launchpad"
           className="mt-8 w-full rounded-2xl border border-white/10 object-cover"
         />
 

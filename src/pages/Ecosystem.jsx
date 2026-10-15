@@ -41,7 +41,7 @@ export default function Ecosystem() {
               <p className="headline mt-1 text-xl text-bolt">Boltz / BOLTZ</p>
               <p className="mt-2 text-sm text-bone/65">
                 Tradeable gold coin. Whitelist presale via the Meteora launchpad (BOLTZ only) — Thu Nov 19, 2026 PT target. RTL does not launch on Meteora.
-                ≥250k BOLTZ purchased unlocks public (educational). Riding does not mint BOLTZ.
+                Public trading follows the presale via Alpha Vault → DAMM pool. Riding does not mint BOLTZ.
               </p>
             </div>
             <div>

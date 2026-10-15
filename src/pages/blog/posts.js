@@ -57,7 +57,7 @@ export const POSTS = [
       'Boltorium runs a dual-token protocol. Market (tradeable) = Boltz / BOLTZ — gold. Earn (ride rewards) = RTL / RTL — “Ride the Lightning,” holographic. Option B: two assets, no auto-convert.',
       'Day-1 rider loop: free Enter App at boltorium.co → ride → Striker verifies → earn RTL. Phase 1 RTL may be in-app / demo credits. Riding does not mint BOLTZ. Tokens are never sold via Stripe, Whop, or side brands.',
       'Boltz whitelist presale target: Thursday Nov 19, 2026 PT via the Meteora launchpad (BOLTZ only). RTL mainnet via boltorium.co — not Jupiter. Until sale rails are live, the portal shows details + interest only — no buy button or mint address.',
-      'Educational go-public gate: ≥250,000 BOLTZ purchased unlocks public trading. Full explainer lives at /tokens on www.boltorium.co.',
+      'Public trading follows the presale via Alpha Vault → DAMM pool. Full explainer lives at /tokens on www.boltorium.co.',
     ],
   },
 ];
