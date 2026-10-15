@@ -16,12 +16,12 @@ const GET_STARTED = [
   {
     n: '03',
     t: 'Earn RTL',
-    d: 'Striker verifyRide grades the session. PASS credits RTL (“Ride the Lightning”). Phase 1 may be in-app / demo credits. FAIL earns nothing. Riding does not mint BTR.',
+    d: 'Striker verifyRide grades the session. PASS credits RTL (“Ride the Lightning”). Phase 1 may be in-app / demo credits. FAIL earns nothing. Riding does not mint BOLTZ.',
   },
   {
     n: '04',
     t: 'Market Boltz',
-    d: 'Boltz (BTR) is the tradeable market coin. Soft TGE via Jupiter DTF (BTR only) — target Thu Oct 8, 2026 PT Mode B. RTL mainnet via boltorium.co / the app, not Jupiter. Teaser + interest only until live — no buy button here yet.',
+    d: 'Boltz (BOLTZ) is the tradeable market coin. Whitelist presale via the Meteora launchpad (BOLTZ only) — target Thu Nov 19, 2026 PT. Details + interest only until live — no buy button here yet. RTL mainnet via boltorium.co / the app, not Jupiter.',
   },
 ];
 
@@ -36,7 +36,7 @@ const DETAIL = [
   },
   {
     t: 'RTL = earn · Boltz = market',
-    d: 'Eligible sessions credit RTL through the app. Boltz / BTR is the separate market token (Jupiter DTF — BTR only). RTL mainnet via boltorium.co, not Jupiter. Option B: two assets, no auto-convert. Tokens never sold via Stripe or Whop.',
+    d: 'Eligible sessions credit RTL through the app. Boltz / BOLTZ is the separate market token (Meteora launchpad — BOLTZ only). RTL mainnet via boltorium.co, not Jupiter. Option B: two assets, no auto-convert. Tokens never sold via Stripe or Whop.',
   },
   {
     t: 'Progress the loop',
@@ -52,7 +52,7 @@ export default function HowItWorks() {
         <h1 className="headline mt-2 text-4xl sm:text-5xl">Get started</h1>
         <p className="mt-4 text-bone/70">
           Join → Ride → Earn RTL in the app. Free Enter App at boltorium.co. Market token is Boltz
-          (BTR) via Jupiter DTF (BTR only). RTL mainnet via boltorium.co — not Jupiter. See Tokens.
+          (BOLTZ) via the Meteora launchpad (BOLTZ only). RTL mainnet via boltorium.co — not Jupiter. See Tokens.
         </p>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2">

@@ -4,12 +4,13 @@ import { asset } from '../lib/asset.js';
 import { APP_URL } from '../lib/appUrl.js';
 
 const HONESTY = [
-  'No live buy button, mint address, or price on this site.',
+  'No live buy button or mint address on this site.',
+  'Presale tier prices below are planned terms — final vault configuration may differ.',
   'Tokens are never sold via Stripe, Whop, or side brands.',
-  'Riding earns RTL — it does not mint Boltz / BTR.',
+  'Riding earns RTL — it does not mint Boltz / BOLTZ.',
   'Phase 1 RTL may be in-app / demo credits until on-chain policy ships.',
   'RTL mainnet via boltorium.co / the app only — not Jupiter.',
-  'Jupiter DTF soft TGE is for Boltz / BTR only.',
+  'Meteora launchpad whitelist presale is for Boltz / BOLTZ only.',
   'Option B: two assets, no auto-convert between Boltz and RTL.',
 ];
 
@@ -23,9 +24,9 @@ export default function Tokens() {
         </h1>
         <p className="mt-4 max-w-2xl text-bone/70">
           Ride on Boltorium → earn <strong className="text-cyan">RTL</strong> in the app → the market
-          token is <strong className="text-bolt">Boltz (BTR)</strong> on Solana via{' '}
-          <strong className="text-bone">Jupiter DTF</strong> (BTR only). Soft TGE target{' '}
-          <strong className="text-bone">Thu Oct 8, 2026 PT · Mode B</strong> — teaser + interest only
+          token is <strong className="text-bolt">Boltz (BOLTZ)</strong> on Solana via{' '}
+          <strong className="text-bone">Meteora launchpad</strong> (BOLTZ only). Whitelist presale target{' '}
+          <strong className="text-bone">Thu Nov 19, 2026 PT</strong> — details + interest only
           until sale rails are live. RTL mainnet ships via boltorium.co — not Jupiter.
         </p>
 
@@ -39,16 +40,14 @@ export default function Tokens() {
           <article className="rounded-2xl border border-bolt/40 bg-bolt/5 p-6">
             <img
               src={asset('banners/banner-boltz-1200x628.png')}
-              alt="Boltz / BTR"
+              alt="Boltz / BOLTZ"
               className="mb-4 w-full rounded-xl border border-bolt/20 object-cover"
             />
             <p className="hud-label text-bolt">MARKET · TRADEABLE</p>
-            <h2 className="headline mt-2 text-2xl text-bolt">Boltz / BTR</h2>
+            <h2 className="headline mt-2 text-2xl text-bolt">Boltz / BOLTZ</h2>
             <p className="mt-3 text-sm text-bone/70">
-              Gold market coin. Soft TGE via <strong className="text-bone">Jupiter DTF</strong> (Studio /
-              secondary later) — <strong className="text-bone">BTR only</strong>. Public trading unlocks
-              after ≥250,000 BTR purchased — educational gate, not a price claim. Riding does{' '}
-              <em>not</em> mint BTR.
+              Gold market coin. Whitelist presale via <strong className="text-bone">Meteora launchpad</strong> — <strong className="text-bone">BOLTZ only</strong>. Public trading follows the presale via Alpha Vault → DAMM pool. Riding does{' '}
+              <em>not</em> mint BOLTZ.
             </p>
           </article>
           <article className="rounded-2xl border border-cyan/40 bg-cyan/5 p-6">
@@ -67,20 +66,132 @@ export default function Tokens() {
           </article>
         </div>
 
+        <section className="mt-10">
+          <p className="hud-label text-bolt">Tokenomics — planned terms</p>
+          <h2 className="headline mt-2 text-2xl sm:text-3xl">
+            1,000,000,000 <span className="text-bolt">BOLTZ</span> · fixed supply
+          </h2>
+          <p className="mt-3 max-w-2xl text-bone/70">
+            Planned allocation. Nothing here is a live sale — no mint address, no buy button — until
+            the Meteora rails are actually live.
+          </p>
+
+          <div className="mt-6 overflow-hidden rounded-2xl border border-white/10">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-white/5 text-left text-bone/50">
+                  <th className="px-4 py-3 font-medium">Allocation</th>
+                  <th className="px-4 py-3 font-medium">Share</th>
+                  <th className="px-4 py-3 font-medium">BOLTZ</th>
+                  <th className="hidden px-4 py-3 font-medium sm:table-cell">Notes</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5 text-bone/75">
+                <tr>
+                  <td className="px-4 py-3">Whitelist presale</td>
+                  <td className="px-4 py-3 text-bolt">5%</td>
+                  <td className="px-4 py-3">50,000,000</td>
+                  <td className="hidden px-4 py-3 sm:table-cell">Meteora Presale Vault — Nov 19</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3">Public / IDO</td>
+                  <td className="px-4 py-3 text-bolt">10%</td>
+                  <td className="px-4 py-3">100,000,000</td>
+                  <td className="hidden px-4 py-3 sm:table-cell">Alpha Vault → DAMM pool</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3">Locked liquidity</td>
+                  <td className="px-4 py-3 text-bolt">20%</td>
+                  <td className="px-4 py-3">200,000,000</td>
+                  <td className="hidden px-4 py-3 sm:table-cell">Locked</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3">Ecosystem / ride-to-earn</td>
+                  <td className="px-4 py-3 text-bolt">35%</td>
+                  <td className="px-4 py-3">350,000,000</td>
+                  <td className="hidden px-4 py-3 sm:table-cell">—</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3">Team &amp; advisors</td>
+                  <td className="px-4 py-3 text-bolt">15%</td>
+                  <td className="px-4 py-3">150,000,000</td>
+                  <td className="hidden px-4 py-3 sm:table-cell">12-month cliff, then 24-month linear vesting</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3">Marketing / partnerships</td>
+                  <td className="px-4 py-3 text-bolt">15%</td>
+                  <td className="px-4 py-3">150,000,000</td>
+                  <td className="hidden px-4 py-3 sm:table-cell">—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="headline mt-8 text-xl text-bone">Whitelist presale tiers</h3>
+          <p className="mt-2 max-w-2xl text-sm text-bone/70">
+            1,500 whitelist spots compete first-come-first-served for 1,000 seats. Tiers auto-roll up
+            when a tier sells out. Full sell-out across all tiers: <strong className="text-bone">$99,500</strong> (planned terms — final vault configuration may differ). Launch path: Presale Vault → Alpha Vault → DAMM pool.
+          </p>
+          <div className="mt-4 overflow-hidden rounded-2xl border border-white/10">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-white/5 text-left text-bone/50">
+                  <th className="px-4 py-3 font-medium">Tier</th>
+                  <th className="px-4 py-3 font-medium">Spots</th>
+                  <th className="px-4 py-3 font-medium">Buy-in</th>
+                  <th className="px-4 py-3 font-medium">BOLTZ</th>
+                  <th className="px-4 py-3 font-medium">Price</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5 text-bone/75">
+                <tr>
+                  <td className="px-4 py-3 text-bolt">Genesis</td>
+                  <td className="px-4 py-3">100</td>
+                  <td className="px-4 py-3">$200</td>
+                  <td className="px-4 py-3">117,647</td>
+                  <td className="px-4 py-3">$0.00170</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 text-bolt">Lightning</td>
+                  <td className="px-4 py-3">300</td>
+                  <td className="px-4 py-3">$133</td>
+                  <td className="px-4 py-3">66,500</td>
+                  <td className="px-4 py-3">$0.00200</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 text-bolt">Bolt</td>
+                  <td className="px-4 py-3">600</td>
+                  <td className="px-4 py-3">$66</td>
+                  <td className="px-4 py-3">28,695</td>
+                  <td className="px-4 py-3">$0.00230</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="mt-6 rounded-2xl border border-cyan/20 bg-cyan/5 p-5">
+            <p className="hud-label text-cyan">RTL economics</p>
+            <p className="mt-2 text-sm text-bone/70">
+              RTL is the uncapped earn token — minted from verified rides, never sold. Spending RTL
+              burns 80% and sends 20% to treasury. RTL stays in-app through the presale.
+            </p>
+          </div>
+        </section>
+
         <section className="mt-10 overflow-hidden rounded-3xl border border-solana/40 bg-gradient-to-br from-solana/15 via-void to-cyan/10">
           <img
-            src={asset('banners/banner-jupiter-launch-1500x500.png')}
-            alt="Jupiter DTF soft TGE teaser"
+            src={asset('banners/banner-meteora-presale-1500x500.webp')}
+            alt="BOLTZ whitelist presale — Nov 19 on the Meteora launchpad"
             className="w-full border-b border-white/10 object-cover"
           />
           <div className="p-6 sm:p-8">
-            <p className="hud-label text-solana">Oct 8 · Mode B soft TGE</p>
-            <h2 className="headline mt-2 text-2xl sm:text-3xl">Jupiter DTF — teaser, not a buy button</h2>
+            <p className="hud-label text-solana">Nov 19 · whitelist presale</p>
+            <h2 className="headline mt-2 text-2xl sm:text-3xl">Meteora launchpad — not a buy button yet</h2>
             <p className="mt-3 max-w-2xl text-bone/70">
-              Target: <strong className="text-bone">Thursday Oct 8, 2026 PT</strong>. Path: Jupiter DTF
-              sale first — <strong className="text-bone">Boltz / BTR only</strong>. RTL does not launch
-              on Jupiter. No mint address, price, or live purchase CTA on this portal until rails are
-              actually live. Join the free app and watch for BTR launch alerts.
+              Target: <strong className="text-bone">Thursday Nov 19, 2026 PT</strong>. Path: Meteora launchpad
+              whitelist presale — <strong className="text-bone">Boltz / BOLTZ only</strong>. RTL does not launch
+              on Meteora. No mint address or live purchase CTA on this portal until rails are
+              actually live. Join the free app and watch for BOLTZ launch alerts.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href={APP_URL} className="btn-bolt !w-auto !px-8 !rounded-full">
@@ -112,7 +223,7 @@ export default function Tokens() {
           <p className="headline text-base text-bone">One-liner</p>
           <p className="mt-2">
             Ride on Boltorium → earn <span className="text-cyan">RTL</span> in the app → the market
-            token is <span className="text-bolt">Boltz (BTR)</span> on Solana via Jupiter DTF. RTL
+            token is <span className="text-bolt">Boltz (BOLTZ)</span> on Solana via the Meteora launchpad. RTL
             mainnet via boltorium.co — not Jupiter.
           </p>
         </div>
