@@ -44,7 +44,14 @@ export default function Tokens() {
               className="mb-4 w-full rounded-xl border border-bolt/20 object-cover"
             />
             <p className="hud-label text-bolt">MARKET · TRADEABLE</p>
-            <h2 className="headline mt-2 text-2xl text-bolt">Boltz / BOLTZ</h2>
+            <div className="mt-2 flex items-center gap-4">
+              <img
+                src={asset('coins/boltz-coin.png')}
+                alt="BOLTZ coin"
+                className="h-20 w-20 shrink-0 rounded-full border border-bolt/30 object-cover"
+              />
+              <h2 className="headline text-2xl text-bolt">Boltz / BOLTZ</h2>
+            </div>
             <p className="mt-3 text-sm text-bone/70">
               Gold market coin. Whitelist presale via <strong className="text-bone">Meteora launchpad</strong> — <strong className="text-bone">BOLTZ only</strong>. Public trading follows the presale via Alpha Vault → DAMM pool. Riding does{' '}
               <em>not</em> mint BOLTZ.
@@ -57,7 +64,14 @@ export default function Tokens() {
               className="mb-4 w-full rounded-xl border border-cyan/20 object-cover"
             />
             <p className="hud-label text-cyan">EARN · RIDE REWARDS</p>
-            <h2 className="headline mt-2 text-2xl text-cyan">RTL / RTL</h2>
+            <div className="mt-2 flex items-center gap-4">
+              <img
+                src={asset('coins/rtl-coin.png')}
+                alt="RTL coin"
+                className="h-20 w-20 shrink-0 rounded-full border border-cyan/30 object-cover"
+              />
+              <h2 className="headline text-2xl text-cyan">RTL / RTL</h2>
+            </div>
             <p className="mt-3 text-sm text-bone/70">
               “Ride the Lightning” — holographic earn asset. Verified rides (Striker-gated) credit RTL
               through the app. Garage / tune / cosmetics spend RTL. Phase 1 may be in-app ledger first;
